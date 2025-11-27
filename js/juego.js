@@ -62,7 +62,7 @@ class Juego {
             console.log("Jugador registrado en Firebase:", registro);
         } catch (error) {
             console.error("Error al registrar jugador en Firebase:", error);
-            // Opcional: podrías notificar al usuario del error
+            alert("Error al registrar, intentelo de nuevo");
         }
 
         this.tiempoInicio = new Date(); // Guardar tiempo de inicio
@@ -177,6 +177,9 @@ class Juego {
             this.preguntaActual.id,
             indiceRespuesta
         );
+
+        console.log("manejador ", this.preguntaActual.id);
+        console.log("indeice respuesta ", indiceRespuesta);
 
         jugadorActual.preguntasRespondidas++;
 

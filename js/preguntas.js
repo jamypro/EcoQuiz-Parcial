@@ -5,6 +5,7 @@ class ManejadorPreguntas {
     constructor() {
         this.preguntas = [];
         this.preguntaActual = 0;
+        this.preguntasSeleccionadas = [];
     }
 
     limpiarTexto(texto) {
@@ -371,12 +372,25 @@ class ManejadorPreguntas {
                 return acc;
             }, {})
         );
-        console.log(seleccionadas);
+        seleccionadas.forEach((s) => {
+            console.log("pregunta", s.texto);
+            console.log("respuesta", s.opciones[s.respuestaCorrecta]);
+        });
+        this.preguntasSeleccionadas = seleccionadas;
+        console.log("preguntas seleccionadas", this.preguntasSeleccionadas);
         return seleccionadas;
     }
 
     verificarRespuesta(preguntaId, respuestaSeleccionada) {
-        const pregunta = this.preguntas.find((p) => p.id === preguntaId);
+        const pregunta = this.preguntasSeleccionadas.find(
+            (p) => p.id === preguntaId
+        );
+        console.log("pregunta-V ", pregunta);
+        console.log(
+            "pregunta-C ",
+            pregunta && pregunta.respuestaCorrecta === respuestaSeleccionada
+        );
+
         return pregunta && pregunta.respuestaCorrecta === respuestaSeleccionada;
     }
 }

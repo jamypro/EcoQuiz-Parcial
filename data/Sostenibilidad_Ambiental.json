@@ -18,7 +18,7 @@
             ],
             "niveles": [
                 {
-                    "nivel": "General",
+                    "nivel": "Dificultad baja",
                     "total_preguntas": 20,
                     "preguntas": [
                         {
@@ -262,15 +262,9 @@
                             "respuesta": "A"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "tema": "Biodiversidad y Ecología",
-            "autores": ["Autores del Documento O.D.S 80 preguntas.docx"],
-            "niveles": [
+                },
                 {
-                    "nivel": "Impactos y Amenazas (Dificultad Media)",
+                    "nivel": "Dificultad Media",
                     "total_preguntas": 20,
                     "preguntas": [
                         {
@@ -516,7 +510,7 @@
                     ]
                 },
                 {
-                    "nivel": "Prácticas de Conservación (Dificultad Alta)",
+                    "nivel": "Dificultad Alta",
                     "total_preguntas": 20,
                     "preguntas": [
                         {
@@ -760,13 +754,7 @@
                             "respuesta": "D"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "tema": "Transición Energética y Cambio Climático",
-            "autores": ["Autores del Documento O.D.S 80 preguntas.docx"],
-            "niveles": [
+                },
                 {
                     "nivel": "Innovación y Desafíos",
                     "total_preguntas": 20,

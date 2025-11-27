@@ -226,7 +226,7 @@
                     "total_preguntas": 20,
                     "preguntas": [
                         {
-                            "id": 1,
+                            "id": 11,
                             "pregunta": "En una región andina afectada por la deforestación y sequía en cultivos, ¿cuál de las siguientes medidas sería más efectiva para mitigar los efectos del cambio climático en esta zona?",
                             "opciones": [
                                 "Incrementar el uso de fertilizantes químicos",
@@ -237,7 +237,7 @@
                             "respuesta": "B"
                         },
                         {
-                            "id": 2,
+                            "id": 12,
                             "pregunta": "En la cuenca del Amazonas, la quema de grandes extensiones de bosque libera miles de toneladas de CO₂ a la atmósfera. ¿Cuál es la consecuencia directa de este fenómeno?",
                             "opciones": [
                                 "Aumento del ozono troposférico",
@@ -248,7 +248,7 @@
                             "respuesta": "C"
                         },
                         {
-                            "id": 3,
+                            "id": 13,
                             "pregunta": "El aumento de la temperatura del agua del mar Caribe ha afectado la reproducción de los corales y la pesca artesanal. ¿Qué fenómeno explica mejor esta situación?",
                             "opciones": [
                                 "Acidificación oceánica",
@@ -259,7 +259,7 @@
                             "respuesta": "A"
                         },
                         {
-                            "id": 4,
+                            "id": 14,
                             "pregunta": "En los páramos de los Andes, el derretimiento acelerado de los glaciares ha reducido la disponibilidad de agua dulce. ¿Qué estrategia ayudaría a garantizar el suministro de agua a largo plazo?",
                             "opciones": [
                                 "Construir más represas",
