@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>EcoQuiz</title>
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <!-- Tipografías -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Merriweather:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Custom CSS -->
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Pantalla de inicio -->
+        <div id="pantalla-inicio" class="container">
+            <div
+                class="row justify-content-center min-vh-100 align-items-center"
+            >
+                <div class="col-md-8">
+                    <div class="card shadow-lg">
+                        <div class="card-body p-5">
+                            <div class="app-header text-center mb-4">
+                                <img
+                                    src="assets/hojas.png"
+                                    alt="EcoQuiz"
+                                    class="logo"
+                                />
+                                <h1 class="mb-0">EcoQuiz - Parcial</h1>
+                                <p class="lead text-muted">
+                                    --Que Dios Nos ayude--
+                                </p>
+                            </div>
+                            <form id="configuracion-juego">
+                                <div class="mb-3">
+                                    <label
+                                        for="nombre-jugador"
+                                        class="form-label"
+                                        >Ingresa tu nombre:</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="nombre-jugador"
+                                        required
+                                        placeholder="Ej: Juan Pérez"
+                                    />
+                                </div>
+                                <div class="mb-3">
+                                    <label
+                                        for="num-preguntas"
+                                        class="form-label"
+                                        >Número de preguntas:</label
+                                    >
+                                    <input
+                                        type="number"
+                                        class="form-select"
+                                        id="num-preguntas"
+                                        min="5"
+                                        max="20"
+                                        value="10"
+                                        required
+                                    />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="dificultad" class="form-label"
+                                        >Nivel de dificultad:</label
+                                    >
+                                    <select
+                                        class="form-select"
+                                        id="dificultad"
+                                        required
+                                    >
+                                        <option value="baja">Baja</option>
+                                        <option value="media">Media</option>
+                                        <option value="alta">Alta</option>
+                                        <option value="extrema">Extrema</option>
+                                    </select>
+                                </div>
+                                <button
+                                    type="submit"
+                                    class="btn btn-success w-100 mt-4"
+                                >
+                                    ¡Iniciar Partida!
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pantalla de juego -->
+        <div id="pantalla-juego" class="container d-none">
+            <div
+                class="row justify-content-center min-vh-100 align-items-center"
+            >
+                <div class="col-md-8">
+                    <div class="card shadow-lg">
+                        <div class="card-body p-4 position-relative">
+                            <img
+                                src="assets/nube2.png"
+                                alt="nube"
+                                class="decor-nube d-none d-md-block"
+                            />
+                            <img
+                                src="assets/sol2.png"
+                                alt="sol"
+                                class="decor-sol d-none d-md-block"
+                            />
+                            <div
+                                class="d-flex justify-content-between align-items-center mb-3"
+                            >
+                                <h3 id="jugador-actual" class="m-0">
+                                    Jugador:
+                                </h3>
+                                <div id="tiempo-total" class="text-end">
+                                    Tiempo restante:
+                                    <span id="temporizador">00:00</span>
+                                </div>
+                            </div>
+                            <div class="progress mb-4">
+                                <div
+                                    id="barra-progreso"
+                                    class="progress-bar bg-success"
+                                    role="progressbar"
+                                ></div>
+                            </div>
+                            <div id="contenedor-pregunta">
+                                <div
+                                    id="contexto-pregunta"
+                                    class="alert alert-info mb-3 d-none"
+                                ></div>
+                                <h4 id="pregunta-actual" class="mb-4"></h4>
+                                <div id="opciones" class="d-grid gap-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pantalla de resultados -->
+        <div id="pantalla-resultados" class="container d-none">
+            <div
+                class="row justify-content-center min-vh-100 align-items-center"
+            >
+                <div class="col-md-8">
+                    <div class="card shadow-lg">
+                        <div class="card-body p-4">
+                            <h2 class="text-center mb-4">🏆 Resultados 🏆</h2>
+                            <div id="podio" class="text-center mb-4"></div>
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Posición</th>
+                                            <th>Jugador</th>
+                                            <th>Aciertos</th>
+                                            <th>Fallos</th>
+                                            <th>Puntaje</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tabla-resultados"></tbody>
+                                </table>
+                            </div>
+                            <div
+                                id="recomendaciones"
+                                class="alert alert-success mt-4"
+                            ></div>
+                            <div class="d-grid gap-2">
+                                <button
+                                    id="ver-respuestas"
+                                    class="btn btn-success"
+                                >
+                                    Ver respuestas
+                                </button>
+                                <button
+                                    id="jugar-nuevo"
+                                    class="btn btn-success"
+                                >
+                                    Jugar de nuevo
+                                </button>
+                                <button
+                                    id="volver-inicio"
+                                    class="btn btn-outline-success"
+                                >
+                                    Volver al inicio
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal de Respuestas -->
+        <div
+            class="modal fade"
+            id="modal-respuestas"
+            tabindex="-1"
+            aria-labelledby="modalRespuestasLabel"
+            aria-hidden="true"
+        >
+            <div
+                class="modal-dialog modal-lg modal-dialog-scrollable modal-respuestas"
+            >
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalRespuestasLabel">
+                            Revisión de Respuestas
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body" id="contenido-modal-respuestas">
+                        <!-- El contenido se generará dinámicamente -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script type="module">
+            // Importar Firebase App y Firestore
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js";
+            import {
+                getFirestore,
+                collection,
+                addDoc,
+            } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
+
+            // Configuración de tu app de Firebase (NO CAMBIAR)
+            const firebaseConfig = {
+                apiKey: "AIzaSyB-rhX6nz7CjgRT5o6LApehZHgX5TORKvA",
+                authDomain: "ecoquiz-e32ac.firebaseapp.com",
+                projectId: "ecoquiz-e32ac",
+                storageBucket: "ecoquiz-e32ac.appspot.com",
+                messagingSenderId: "1101966762734",
+                appId: "1:1101966762734:web:9e3334d2ce54770e6d0d6f",
+            };
+
+            // Inicializar Firebase
+            const app = initializeApp(firebaseConfig);
+            const db = getFirestore(app);
+
+            // Lo exportamos para poder usar db en otros archivos
+            window.db = db;
+            window.collection = collection;
+            window.addDoc = addDoc;
+        </script>
+        <script type="module" src="js/app.js"></script>
+    </body>
+</html>

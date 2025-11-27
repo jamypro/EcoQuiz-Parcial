@@ -1,0 +1,602 @@
+{
+    "database_info": {
+        "titulo": "Base de Datos de Preguntas - Sostenibilidad Ambiental",
+        "descripcion": "Compilación completa de preguntas sobre temas ambientales",
+        "fecha_creacion": "2025",
+        "total_temas": 1
+    },
+    "temas": [
+        {
+            "tema": "CAMBIO CLIMÁTICO",
+            "autores": [
+                "Evelin España",
+                "Jhonatan Vaca",
+                "Marly Quilindo",
+                "Jhonier Burbano"
+            ],
+            "niveles": [
+                {
+                    "nivel": "Dificultad Baja",
+                    "total_preguntas": 20,
+                    "preguntas": [
+                        {
+                            "id": 1,
+                            "pregunta": "¿Qué es el cambio climático?",
+                            "opciones": [
+                                "Una estación del año",
+                                "Un cambio temporal del clima",
+                                "Una alteración prolongada del clima global",
+                                "Un fenómeno local"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 2,
+                            "pregunta": "¿Cuál de los siguientes gases contribuye al efecto invernadero?",
+                            "opciones": [
+                                "Oxígeno",
+                                "Nitrógeno",
+                                "Dióxido de carbono (CO₂)",
+                                "Helio"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 3,
+                            "pregunta": "¿Cuál de estos recursos naturales se ve afectado por el cambio climático?",
+                            "opciones": [
+                                "El petróleo",
+                                "El agua",
+                                "El oro",
+                                "El hierro"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 4,
+                            "pregunta": "¿Qué capa de la atmósfera protege la Tierra de los rayos UV?",
+                            "opciones": [
+                                "Estratósfera",
+                                "Troposfera",
+                                "Ionosfera",
+                                "Litosfera"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 5,
+                            "pregunta": "¿Qué es el efecto invernadero?",
+                            "opciones": [
+                                "Calentamiento natural de la Tierra",
+                                "Proceso de enfriamiento global",
+                                "Aumento de lluvias",
+                                "Movimiento del viento"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 6,
+                            "pregunta": "¿Cuál es una fuente de energía renovable?",
+                            "opciones": [
+                                "Carbón",
+                                "Petróleo",
+                                "Energía solar",
+                                "Gas natural"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 7,
+                            "pregunta": "¿Qué ocurre cuando se derriten los glaciares?",
+                            "opciones": [
+                                "Disminuye el nivel del mar",
+                                "Aumenta el nivel del mar",
+                                "Aumenta la nieve",
+                                "No pasa nada"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 8,
+                            "pregunta": "¿Qué país emite más CO₂ actualmente?",
+                            "opciones": ["México", "China", "España", "Canadá"],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 9,
+                            "pregunta": "¿Qué tipo de contaminación afecta directamente el clima?",
+                            "opciones": [
+                                "Sonora",
+                                "Visual",
+                                "Atmosférica",
+                                "Luminosa"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 10,
+                            "pregunta": "¿Qué organismo estudia el cambio climático a nivel mundial?",
+                            "opciones": ["OMS", "IPCC", "FAO", "ONU Mujeres"],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 11,
+                            "pregunta": "¿Qué recurso se agota más rápidamente por el cambio climático?",
+                            "opciones": ["Petróleo", "Agua", "Oro", "Hierro"],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 12,
+                            "pregunta": "¿Qué provoca la deforestación?",
+                            "opciones": [
+                                "Aumento de oxígeno",
+                                "Reducción de dióxido de carbono",
+                                "Aumento del CO₂ en la atmósfera",
+                                "Más sombra"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 13,
+                            "pregunta": "¿Cuál de las siguientes acciones ayuda al planeta?",
+                            "opciones": [
+                                "Dejar las luces encendidas",
+                                "Reciclar",
+                                "Usar aerosoles",
+                                "Talando árboles"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 14,
+                            "pregunta": "¿Cuál es el principal responsable del calentamiento global?",
+                            "opciones": [
+                                "Las erupciones volcánicas",
+                                "La radiación solar",
+                                "Las actividades humanas",
+                                "Los ríos"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 15,
+                            "pregunta": "¿Qué gas producen los automóviles?",
+                            "opciones": [
+                                "Oxígeno",
+                                "Dióxido de carbono (CO₂)",
+                                "Nitrógeno",
+                                "Helio"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 16,
+                            "pregunta": "¿Qué zona del planeta se calienta más rápido?",
+                            "opciones": [
+                                "La Antártida",
+                                "África",
+                                "Oceanía",
+                                "América del Sur"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 17,
+                            "pregunta": "¿Qué animales sufren más por el deshielo?",
+                            "opciones": [
+                                "Tigres",
+                                "Osos polares",
+                                "Jirafas",
+                                "Elefantes"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 18,
+                            "pregunta": "¿Qué color refleja mejor el calor del sol?",
+                            "opciones": ["Negro", "Blanco", "Rojo", "Azul"],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 19,
+                            "pregunta": "¿Qué aparato doméstico consume más energía?",
+                            "opciones": [
+                                "Nevera",
+                                "Televisor",
+                                "Plancha",
+                                "Ventilador"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 20,
+                            "pregunta": "¿Qué día se celebra el Día de la Tierra?",
+                            "opciones": [
+                                "5 de junio",
+                                "22 de abril",
+                                "12 de octubre",
+                                "25 de diciembre"
+                            ],
+                            "respuesta": "B"
+                        }
+                    ]
+                },
+                {
+                    "nivel": "Dificultad Alta",
+                    "total_preguntas": 20,
+                    "preguntas": [
+                        {
+                            "id": 1,
+                            "pregunta": "En una región andina afectada por la deforestación y sequía en cultivos, ¿cuál de las siguientes medidas sería más efectiva para mitigar los efectos del cambio climático en esta zona?",
+                            "opciones": [
+                                "Incrementar el uso de fertilizantes químicos",
+                                "Implementar sistemas de riego eficientes y reforestación",
+                                "Sustituir los cultivos por especies exóticas",
+                                "Abandonar la actividad agrícola"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 2,
+                            "pregunta": "En la cuenca del Amazonas, la quema de grandes extensiones de bosque libera miles de toneladas de CO₂ a la atmósfera. ¿Cuál es la consecuencia directa de este fenómeno?",
+                            "opciones": [
+                                "Aumento del ozono troposférico",
+                                "Disminución del efecto invernadero",
+                                "Incremento del calentamiento global",
+                                "Reducción de lluvias en zonas polares"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 3,
+                            "pregunta": "El aumento de la temperatura del agua del mar Caribe ha afectado la reproducción de los corales y la pesca artesanal. ¿Qué fenómeno explica mejor esta situación?",
+                            "opciones": [
+                                "Acidificación oceánica",
+                                "Erosión costera",
+                                "Desertificación",
+                                "Lluvias ácidas"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 4,
+                            "pregunta": "En los páramos de los Andes, el derretimiento acelerado de los glaciares ha reducido la disponibilidad de agua dulce. ¿Qué estrategia ayudaría a garantizar el suministro de agua a largo plazo?",
+                            "opciones": [
+                                "Construir más represas",
+                                "Proteger ecosistemas de alta montaña",
+                                "Aumentar el consumo de agua industrial",
+                                "Eliminar zonas de amortiguamiento"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 5,
+                            "pregunta": "En un área agrícola del Tolima, los productores de café observan una reducción en la calidad del grano debido a cambios en la temperatura y la humedad. ¿Qué acción de adaptación sería más adecuada para mantener la productividad?",
+                            "opciones": [
+                                "Ampliar el uso de pesticidas",
+                                "Cambiar la altitud de cultivo hacia zonas más altas",
+                                "Taladrar el suelo para mejorar el drenaje",
+                                "Usar semillas transgénicas sin evaluación"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 6,
+                            "pregunta": "En la costa Pacífica colombiana, los manglares han disminuido a causa del aumento del nivel del mar y la expansión urbana. ¿Cuál es la función ecológica más afectada por esta pérdida?",
+                            "opciones": [
+                                "Producción de sal marina",
+                                "Protección frente a tormentas y erosión",
+                                "Disminución del turismo",
+                                "Reducción de la contaminación acústica"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 7,
+                            "pregunta": "El incremento en las enfermedades respiratorias en un municipio del Putumayo se debe a la quema de residuos agrícolas. ¿Qué contaminante atmosférico se incrementa principalmente con esta práctica?",
+                            "opciones": [
+                                "Oxígeno",
+                                "Dióxido de carbono",
+                                "Partículas finas (PM2.5)",
+                                "Metano"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 8,
+                            "pregunta": "En una zona urbana de Bogotá se instaló un corredor verde con árboles nativos y ciclovías, observándose una reducción de la temperatura. ¿Qué efecto ambiental positivo se evidencia en este caso?",
+                            "opciones": [
+                                "Efecto albedo",
+                                "Isla de calor reducida",
+                                "Aumento del ozono",
+                                "Contaminación lumínica"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 9,
+                            "pregunta": "El gobierno implementó programas de reforestación con especies nativas en una región afectada por una sequía prolongada. ¿Qué efecto tienen los árboles sobre el microclima?",
+                            "opciones": [
+                                "Aumentan la radiación solar",
+                                "Incrementan la erosión",
+                                "Regulan la humedad y la temperatura",
+                                "Reducen la infiltración del agua"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 10,
+                            "pregunta": "Investigadores del IDEAM detectaron que la temperatura promedio en Colombia ha aumentado 1,4°C en los últimos 50 años. ¿Qué tipo de evidencia representa este dato?",
+                            "opciones": [
+                                "Empírica",
+                                "Teórica",
+                                "Subjetiva",
+                                "Casual"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 11,
+                            "pregunta": "En los llanos orientales, la deforestación para ganadería ha provocado pérdida de biodiversidad y degradación del suelo. ¿Qué proceso natural se ve más afectado?",
+                            "opciones": [
+                                "Ciclo del carbono",
+                                "Ciclo del agua",
+                                "Ciclo del fósforo",
+                                "Ciclo lunar"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 12,
+                            "pregunta": "Una empresa minera en Boyacá ha sido denunciada por verter desechos en fuentes hídricas, causando mortandad de peces. ¿Qué tipo de contaminación está ocurriendo?",
+                            "opciones": [
+                                "Acústica",
+                                "Visual",
+                                "Hídrica",
+                                "Lumínica"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 13,
+                            "pregunta": "En la zona rural de Nariño, los agricultores observan que las lluvias se presentan con mayor intensidad, seguidas de largos periodos de sequía. ¿Qué fenómeno climático explica mejor este patrón?",
+                            "opciones": [
+                                "El Niño y La Niña",
+                                "Efecto invernadero natural",
+                                "Rotación terrestre",
+                                "Movimiento de mareas"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 14,
+                            "pregunta": "Una ciudad del Eje Cafetero implementó techos verdes y sistemas de captación de agua lluvia en edificios públicos. ¿Qué objetivo ambiental principal busca esta medida?",
+                            "opciones": [
+                                "Incrementar la publicidad",
+                                "Regular la temperatura y reutilizar el agua",
+                                "Fomentar la deforestación",
+                                "Aumentar la demanda eléctrica"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 15,
+                            "pregunta": "El aumento del nivel del mar ha afectado la infraestructura turística en zonas costeras. ¿Qué proceso natural origina este aumento del nivel del mar?",
+                            "opciones": [
+                                "Expansión térmica del agua y deshielo",
+                                "Disminución de lluvias",
+                                "Aumento del ozono",
+                                "Enfriamiento global"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 16,
+                            "pregunta": "Una plantación de palma africana se expande sobre antiguos bosques tropicales. ¿Qué impacto principal se genera?",
+                            "opciones": [
+                                "Aumento de la biomasa",
+                                "Pérdida de hábitats y biodiversidad",
+                                "Reducción del CO₂",
+                                "Aumento del turismo ecológico"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 17,
+                            "pregunta": "En un humedal urbano, la contaminación por plásticos ha reducido la presencia de aves y anfibios. ¿Qué tipo de acción debe priorizarse para restaurar este ecosistema?",
+                            "opciones": [
+                                "Eliminación manual de residuos y control de vertimientos",
+                                "Construcción de más canales",
+                                "Introducción de especies exóticas",
+                                "Reducción del oxígeno"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 18,
+                            "pregunta": "Los incendios forestales en la Amazonía liberan humo que llega hasta las ciudades, aumentando el material particulado. ¿Qué efecto causa en la salud humana?",
+                            "opciones": [
+                                "Mejora la respiración",
+                                "Disminuye el riesgo cardiovascular",
+                                "Provoca enfermedades respiratorias",
+                                "Aumenta la producción de oxígeno"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 19,
+                            "pregunta": "Comunidades indígenas reportan menor disponibilidad de peces por el calentamiento de los ríos. ¿Qué relación directa existe entre el aumento de temperatura y la biodiversidad acuática?",
+                            "opciones": [
+                                "Mayor oxigenación del agua",
+                                "Menor concentración de oxígeno y muerte de especies",
+                                "Crecimiento de corales",
+                                "Aumento del fitoplancton"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 20,
+                            "pregunta": "Los bosques colombianos capturan millones de toneladas de carbono al año. ¿Qué proceso permite esta captura natural de CO₂?",
+                            "opciones": [
+                                "Fotosíntesis",
+                                "Respiración celular",
+                                "Combustión",
+                                "Fermentación"
+                            ],
+                            "respuesta": "A"
+                        }
+                    ]
+                },
+                {
+                    "nivel": "Dificultad Extrema",
+                    "total_preguntas": 13,
+                    "preguntas": [
+                        {
+                            "id": 1,
+                            "pregunta": "En áreas amazónicas deforestadas, las especies arbóreas de madera densa y hojas pequeñas muestran mayor resistencia a la sequía. ¿Qué característica funcional de las plantas indica mejor adaptación a las áreas degradadas?",
+                            "opciones": [
+                                "Color de las flores",
+                                "Tamaño de las hojas",
+                                "Densidad de la madera",
+                                "Altura de la planta"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 2,
+                            "pregunta": "En un páramo, el aumento de temperatura ha permitido la expansión de especies invasoras. ¿Qué rasgo funcional de las aves es más útil para predecir su respuesta ante la invasión biológica?",
+                            "opciones": [
+                                "Color del plumaje",
+                                "Tamaño del pico",
+                                "Cantidad de huevos",
+                                "Patrón migratorio"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 3,
+                            "pregunta": "En ríos de la Orinoquía, la minería ilegal y la contaminación por mercurio han reducido la población de delfines rosados. ¿Qué tipo de contaminación predomina en este escenario?",
+                            "opciones": [
+                                "Atmosférica",
+                                "Hídrica",
+                                "Sonora",
+                                "Radiactiva"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 4,
+                            "pregunta": "La expansión agrícola ha desplazado especies silvestres hacia zonas urbanas. Los corredores ecológicos buscan restaurar la conectividad. ¿Qué objetivo principal tienen los corredores biológicos?",
+                            "opciones": [
+                                "Unir fragmentos de hábitat para favorecer la migración de especies",
+                                "Aumentar la caza controlada",
+                                "Sustituir especies nativas",
+                                "Fomentar la urbanización"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 5,
+                            "pregunta": "Las corrientes oceánicas transportan plásticos hasta playas y arrecifes. ¿Qué consecuencia ambiental genera esta contaminación al ser consumida por los peces?",
+                            "opciones": [
+                                "Aumento de oxígeno",
+                                "Acumulación de tóxicos en organismos marinos",
+                                "Disminución del CO₂",
+                                "Crecimiento de corales"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 6,
+                            "pregunta": "El cambio en los patrones de lluvia afecta el calendario agrícola. ¿Qué política pública mitigaría mejor este impacto en la producción de alimentos básicos?",
+                            "opciones": [
+                                "Implementar sistemas de riego sostenible",
+                                "Aumentar el uso de herbicidas",
+                                "Promover monocultivos",
+                                "Reducir el número de agricultores"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 7,
+                            "pregunta": "El crecimiento desordenado de las ciudades colombianas ha reducido los parques y zonas de vegetación. ¿Qué efecto genera esta transformación en el microclima urbano?",
+                            "opciones": [
+                                "Disminuye la temperatura",
+                                "Genera el efecto de isla de calor",
+                                "Aumenta la humedad ambiental",
+                                "Mejora la calidad del aire"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 8,
+                            "pregunta": "Un estudio predice que el aumento de temperatura afectará la distribución de especies endémicas. ¿Qué herramienta de análisis es la más adecuada para modelar este impacto?",
+                            "opciones": [
+                                "Modelos de Distribución de Especies (MDE)",
+                                "Estudios de opinión pública",
+                                "Encuestas de percepción ambiental",
+                                "Análisis de mercado"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 9,
+                            "pregunta": "En la Sierra Nevada de Santa Marta, el deshielo acelerado provoca deslizamientos. ¿Qué nombre recibe la gestión del riesgo que anticipa y reduce la vulnerabilidad?",
+                            "opciones": [
+                                "Reactiva",
+                                "Preventiva",
+                                "Correctiva",
+                                "Constructiva"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 10,
+                            "pregunta": "El sector energético busca reducir la dependencia de combustibles fósiles. ¿Qué estrategia de mitigación es clave para la transición energética?",
+                            "opciones": [
+                                "Aumentar la importación de gas",
+                                "Fomentar las FNCER (Fuentes No Convencionales de Energía Renovable)",
+                                "Construir más represas",
+                                "Reducir la eficiencia energética"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 11,
+                            "pregunta": "Una empresa forestal certificada utiliza la biomasa de sus residuos como combustible. ¿Qué principio de sostenibilidad aplica esta práctica?",
+                            "opciones": [
+                                "Decrecimiento",
+                                "Economía circular",
+                                "Obsolescencia programada",
+                                "Greenwashing"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 12,
+                            "pregunta": "El consumo de agua por habitante en una ciudad colombiana supera el promedio nacional. ¿Qué medida de política pública incentivaría la reducción?",
+                            "opciones": [
+                                "Subsidiar el consumo excesivo",
+                                "Tarifas progresivas por consumo y campañas de educación",
+                                "Eliminar la medición",
+                                "Promover el riego agrícola"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 13,
+                            "pregunta": "Un plan de desarrollo territorial prioriza la adaptación al cambio climático. ¿Qué medida es un ejemplo de Adaptación basada en Ecosistemas (AbE)?",
+                            "opciones": [
+                                "Construir diques de concreto",
+                                "Restaurar manglares y humedales",
+                                "Aumentar la pavimentación",
+                                "Usar aire acondicionado"
+                            ],
+                            "respuesta": "B"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

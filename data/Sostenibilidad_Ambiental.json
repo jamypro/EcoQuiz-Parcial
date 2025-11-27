@@ -1,0 +1,1019 @@
+{
+    "database_info": {
+        "titulo": "Base de Datos de Preguntas - Sostenibilidad Ambiental y ODS",
+        "descripcion": "Compilación completa de 80 preguntas sobre Objetivos de Desarrollo Sostenible, Biodiversidad y Transición Energética.",
+        "fecha_creacion": "2025",
+        "total_temas": 3
+    },
+    "temas": [
+        {
+            "tema": "Sostenibilidad General y ODS",
+            "autores": [
+                "Jairo Esneider Trejos Rojas",
+                "Jhoan Andrés Vallejo Arango",
+                "Deivi Paul Díaz Rodríguez",
+                "Juan Pablos Castro López",
+                "Dagny Ortega",
+                "Norman Bravo"
+            ],
+            "niveles": [
+                {
+                    "nivel": "General",
+                    "total_preguntas": 20,
+                    "preguntas": [
+                        {
+                            "id": 1,
+                            "contexto": "En una comunidad rural aislada, se evalúan tecnologías solares para electrificación. Deben elegir la opción más eficiente debido al espacio limitado en techos. [cite: 559, 560]",
+                            "pregunta": "¿Qué tipo de panel solar ofrece mayor generación de energía por m² instalado? [cite: 561]",
+                            "opciones": [
+                                "Silicio monocristalino",
+                                "Silicio policristalino",
+                                "Película delgada",
+                                "Celdas orgánicas"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 2,
+                            "contexto": "Una empresa de transporte debe renovar su flota. Considera vehículos eléctricos versus híbridos, pero la matriz eléctrica regional depende en 70% de carbón. [cite: 566, 567]",
+                            "pregunta": "¿En estas condiciones, qué vehículos tendrían mayor huella de carbono operativa? [cite: 568]",
+                            "opciones": [
+                                "Eléctricos recargados en la red local",
+                                "Híbridos enchufables",
+                                "Híbridos convencionales",
+                                "Diésel modernos"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 3,
+                            "contexto": "Un fabricante de muebles quiere implementar economía circular. Busca alternativas al modelo tradicional de 'usar y tirar'. [cite: 573]",
+                            "pregunta": "¿Qué estrategia representa mejor los principios de economía circular? [cite: 574]",
+                            "opciones": [
+                                "Diseñar productos modulares reparables y reciclables",
+                                "Usar materiales más baratos para reducir costos",
+                                "Incrementar la producción para economías de escala",
+                                "Externalizar la gestión de residuos"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 4,
+                            "contexto": "Una corporación multinacional compra bonos de carbono voluntarios para compensar sus emisiones de viajes aéreos. [cite: 579]",
+                            "pregunta": "¿Qué riesgo principal existe en esta estrategia de compensación? [cite: 580]",
+                            "opciones": [
+                                "Que los proyectos no generen reducciones reales y adicionales",
+                                "Que los bonos sean demasiado costosos",
+                                "Que no haya suficientes bonos disponibles",
+                                "Que la aerolínea ya haya compensado los vuelos"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 5,
+                            "contexto": "Un agricultor quiere transitionar a agricultura regenerativa en su finca de 50 hectáreas. [cite: 585]",
+                            "pregunta": "¿Qué práctica debería ELIMINAR para alinearse con este modelo? [cite: 586]",
+                            "opciones": [
+                                "Aplicación intensiva de herbicidas sintéticos",
+                                "Rotación de cultivos diversos",
+                                "Incorporación de abonos verdes",
+                                "Siembra directa sin labranza"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 6,
+                            "contexto": "Un arquitecto diseña un edificio de oficinas en clima frío donde la calefacción representa el 60% del consumo energético. [cite: 591]",
+                            "pregunta": "¿Qué estrategia pasiva reduciría más la demanda de calefacción? [cite: 592]",
+                            "opciones": [
+                                "Muro trombe para ganancia solar",
+                                "Ventilación natural optimizada",
+                                "Aislamiento térmico continuo en fachada y cubierta",
+                                "Materiales de alta inercia térmica"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 7,
+                            "contexto": "Una refinería quiere producir hidrógeno verde para descarbonizar sus procesos, usando su propio parque eólico. [cite: 597]",
+                            "pregunta": "¿Qué limitación técnica-económica enfrentaría principalmente? [cite: 598]",
+                            "opciones": [
+                                "Baja eficiencia global del proceso (electricidad → H₂ → energía útil)",
+                                "Falta de compradores para el hidrógeno producido",
+                                "Altos costos de mantenimiento de electrolizadores",
+                                "Inestabilidad de la red eléctrica local"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 8,
+                            "contexto": "En la Amazonía, diversas actividades impulsan la deforestación, afectando sumideros de carbono y biodiversidad. [cite: 603]",
+                            "pregunta": "Según estudios, ¿qué actividad causa la mayor superficie deforestada anualmente? [cite: 604]",
+                            "opciones": [
+                                "Expansión de pastos para ganadería extensiva",
+                                "Cultivos ilícitos de coca",
+                                "Urbanización y construcción de infraestructura",
+                                "Extracción selectiva de madera noble"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 9,
+                            "contexto": "Un arrecife coralino muestra blanqueamiento acelerado y disminución en la calcificación de corales. [cite: 609]",
+                            "pregunta": "¿Qué proceso químico oceánico, exacerbado por el cambio climático, explica principalmente estos efectos? [cite: 610]",
+                            "opciones": [
+                                "Disminución del pH por absorción de CO₂ (acidificación)",
+                                "Aumento de la temperatura superficial del mar",
+                                "Reducción de la salinidad por deshielo glacial",
+                                "Disminución de oxígeno disuelto"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 10,
+                            "contexto": "Un fabricante de baterías para vehículos eléctricos debe asegurar su cadena de suministro de minerales críticos. [cite: 615]",
+                            "pregunta": "¿Qué mineral presenta los mayores desafíos éticos en su extracción, asociados a condiciones laborales y ambientales? [cite: 616]",
+                            "opciones": [
+                                "Cobalto",
+                                "Litio",
+                                "Grafito",
+                                "Níquel"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 11,
+                            "contexto": "Una ciudad costera experimenta inundaciones frecuentes por marejadas ciclónicas y busca soluciones naturales. [cite: 621]",
+                            "pregunta": "¿Qué intervención basada en naturaleza ofrece mejor protección costera a largo plazo? [cite: 622]",
+                            "opciones": [
+                                "Restauración de manglares y marismas saladas",
+                                "Construcción de espigones de roca",
+                                "Instalación de barreras metálicas móviles",
+                                "Reforzamiento con gaviones"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 12,
+                            "contexto": "Un país identifica que el metano representa el 30% de sus emisiones de GEI y busca estrategias de reducción. [cite: 627]",
+                            "pregunta": "¿En qué sector encontraría las mayores oportunidades de mitigación de metano? [cite: 628]",
+                            "opciones": [
+                                "Sector agropecuario (fermentación entérica y manejo de estiércol)",
+                                "Generación eléctrica con gas natural",
+                                "Procesos industriales",
+                                "Quema de residuos agrícolas"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 13,
+                            "contexto": "Una empresa se compromete a ser \"Net-Zero\" para 2050, pero sus procesos industriales generan emisiones residuales inevitables. [cite: 633]",
+                            "pregunta": "¿Cómo podría lograr la neutralidad climática según este compromiso? [cite: 634]",
+                            "opciones": [
+                                "Compensando emisiones residuales con remociones equivalentes de CO₂",
+                                "Eliminando completamente todas sus emisiones directas",
+                                "Reduciendo emisiones a niveles de 1990",
+                                "Adquiriendo certificados de energía renovable"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 14,
+                            "contexto": "Un supermercado reevalúa su sistema de refrigeración comercial por altos costos energéticos y emisiones fugitivas de refrigerantes. [cite: 639]",
+                            "pregunta": "Además de la eficiencia energética, ¿qué aspecto ambiental crítico debe considerar? [cite: 640]",
+                            "opciones": [
+                                "Potencial de calentamiento global de los gases refrigerantes",
+                                "Consumo de agua en torres de refrigeración",
+                                "Ruido generado por los compresores",
+                                "Espacio ocupado por los equipos"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 15,
+                            "contexto": "Una cementera busca tecnologías para reducir su huella de carbono, responsable del 8% de las emisiones globales de CO₂. [cite: 645]",
+                            "pregunta": "¿Qué tecnología representa la opción más viable para capturar sus emisiones proceso? [cite: 646]",
+                            "opciones": [
+                                "Captura en la chimenea de calcinación (producción de clínker)",
+                                "Filtros en molinos de cemento",
+                                "Precalentadores de aire",
+                                "Calderas de recuperación de calor"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 16,
+                            "contexto": "Un servicio de alimentación institucional quiere reducir la huella de carbono de sus menús, manteniendo el valor nutricional. [cite: 651]",
+                            "pregunta": "¿Qué cambio en el menú ofrecería la mayor reducción de huella de carbono? [cite: 652]",
+                            "opciones": [
+                                "Sustituir platos con carne de res por opciones basadas en legumbres",
+                                "Cambiar de arroz convencional a arroz integral",
+                                "Reducir porciones de todos los platos en un 20%",
+                                "Usar solo verduras de producción local"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 17,
+                            "contexto": "Un país insular vulnerable evalúa los compromisos del Acuerdo de París cruciales para su supervivencia. [cite: 657]",
+                            "pregunta": "¿Qué meta de temperatura defendería más firmemente para limitar la subida del nivel del mar? [cite: 658]",
+                            "opciones": [
+                                "Esfuerzos para limitar el calentamiento a 1.5°C",
+                                "Mantenerse por debajo de 2°C",
+                                "No superar los 2.5°C",
+                                "Estabilizar en 3°C máximo"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 18,
+                            "contexto": "Una utility eléctrica enfrenta desafíos para integrar 40% de generación eólica y solar en su red. [cite: 663]",
+                            "pregunta": "¿Qué característica técnica de estas fuentes representa el mayor reto para la operación del sistema? [cite: 664]",
+                            "opciones": [
+                                "Su variabilidad e impredecibilidad a corto plazo",
+                                "Su costo nivelado de generación",
+                                "Su requisito de espacio físico",
+                                "Su impacto en la calidad de la onda"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 19,
+                            "contexto": "Un viticultor en zona mediterránea quiere mejorar la salud del suelo y secuestrar carbono en sus viñedos. [cite: 669]",
+                            "pregunta": "¿Qué práctica de manejo debería implementar para aumentar el carbono orgánico del suelo? [cite: 670]",
+                            "opciones": [
+                                "Cubiertas vegetales entre líneas de viñas y no laboreo",
+                                "Labranza intensiva antes de cada temporada",
+                                "Aplicación exclusiva de fertilizantes minerales",
+                                "Riego por inundación tradicional"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 20,
+                            "contexto": "Una metrópoli con alta congestión vehicular y contaminación atmosférica planea su transformación urbana. [cite: 675]",
+                            "pregunta": "¿Qué estrategia integrada ofrecería mayores beneficios en reducción de emisiones y calidad de vida? [cite: 676]",
+                            "opciones": [
+                                "Desarrollo de barrios compactos de uso mixto con transporte público eficiente",
+                                "Construcción de más túneles y vías elevadas para automóviles",
+                                "Subsidios para compra de autos eléctricos",
+                                "Restricción vehicular por placas sin mejorar transporte público"
+                            ],
+                            "respuesta": "A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tema": "Biodiversidad y Ecología",
+            "autores": ["Autores del Documento O.D.S 80 preguntas.docx"],
+            "niveles": [
+                {
+                    "nivel": "Impactos y Amenazas (Dificultad Media)",
+                    "total_preguntas": 20,
+                    "preguntas": [
+                        {
+                            "id": 1,
+                            "contexto": "En tu urbanización hay un terreno arbolado que quieren convertir en estacionamiento. [cite: 702]",
+                            "pregunta": "¿Qué beneficio principal se perdería? [cite: 703]",
+                            "opciones": [
+                                "Hábitat para fauna local y regulación climática",
+                                "Espacio para eventos comunitarios",
+                                "Valor estético de la propiedad",
+                                "Todos los anteriores"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 2,
+                            "contexto": "Un agricultor quema rastrojos después de la cosecha para preparar el terreno. [cite: 708]",
+                            "pregunta": "¿Qué consecuencia negativa tiene esta práctica? [cite: 709]",
+                            "opciones": [
+                                "Pérdida de nutrientes del suelo y emisión de CO₂",
+                                "Mayor erosión eólica e hídrica",
+                                "Reducción de la biodiversidad del suelo",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 3,
+                            "contexto": "En un parque natural, visitantes alimentan a zorros y mapaches con restos de comida. [cite: 714]",
+                            "pregunta": "¿Qué problema ecológico genera esto? [cite: 715]",
+                            "opciones": [
+                                "Alteración del comportamiento natural de la fauna",
+                                "Dependencia de los animales de los humanos",
+                                "Propagación de enfermedades",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 4,
+                            "contexto": "Un municipio usa herbicidas para eliminar \"malas hierbas\" en parques públicos. [cite: 720]",
+                            "pregunta": "¿Qué impacto tiene sobre la biodiversidad? [cite: 721]",
+                            "opciones": [
+                                "Elimina plantas nativas que sirven de alimento a insectos",
+                                "Contamina aguas subterráneas",
+                                "Empobrece la diversidad de polinizadores",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 5,
+                            "contexto": "Una familia compra muebles de teca sin certificar porque son más baratos. [cite: 726]",
+                            "pregunta": "¿Qué problema promueve indirectamente? [cite: 727]",
+                            "opciones": [
+                                "Deforestación de bosques tropicales",
+                                "Pérdida de hábitat de especies amenazadas",
+                                "Violación de derechos de comunidades locales",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 6,
+                            "contexto": "Un proyecto urbanístico rellena una zona húmeda para construir. [cite: 732]",
+                            "pregunta": "¿Qué servicio ecosistémico crucial se destruye? [cite: 733]",
+                            "opciones": [
+                                "Filtración natural de aguas y control de inundaciones",
+                                "Hábitat de anfibios y aves acuáticas",
+                                "Almacenamiento de carbono en turberas",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 7,
+                            "contexto": "Una persona pasea a su perro sin correa en zona de nidificación de aves. [cite: 738]",
+                            "pregunta": "¿Qué impacto puede tener? [cite: 739]",
+                            "opciones": [
+                                "Molestia y estrés a la fauna silvestre",
+                                "Destrucción accidental de nidos",
+                                "Transmisión de enfermedades a animales silvestres",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 8,
+                            "contexto": "Un jardinero municipal poda árboles en primavera, durante la época de nidificación. [cite: 744]",
+                            "pregunta": "¿Qué consecuencia tiene este timing? [cite: 745]",
+                            "opciones": [
+                                "Destrucción de nidos con polluelos",
+                                "Estrés innecesario para las aves reproductoras",
+                                "Reducción del éxito reproductivo de especies urbanas",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 9,
+                            "contexto": "Un supermercado vende musgo natural para decoración navideña. [cite: 750]",
+                            "pregunta": "¿Qué ecosistema se daña con su extracción? [cite: 751]",
+                            "opciones": [
+                                "Bosques donde el musgo retiene humedad y nutrientes",
+                                "Ecosistemas acuáticos",
+                                "Zonas desérticas",
+                                "Ninguno, es un recurso infinito"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 10,
+                            "contexto": "Una finca agrícola elimina todos los setos vivos entre cultivos. [cite: 756]",
+                            "pregunta": "¿Qué servicio ecológico se pierde? [cite: 757]",
+                            "opciones": [
+                                "Refugio para depredadores naturales de plagas",
+                                "Corredores para polinizadores",
+                                "Barrera contra la erosión del viento",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 11,
+                            "contexto": "Un coleccionista compra plantas tropicales raras de origen ilegal. [cite: 762]",
+                            "pregunta": "¿Qué problema fomenta? [cite: 763]",
+                            "opciones": [
+                                "Tráfico ilegal de especies",
+                                "Sobreexplotación de plantas en peligro",
+                                "Alteración de ecosistemas frágiles",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 12,
+                            "contexto": "Un campista arranca flores silvestres en un parque nacional para llevárselas. [cite: 768]",
+                            "pregunta": "¿Qué impacto tiene este gesto aparentemente inocuo? [cite: 769]",
+                            "opciones": [
+                                "Reduce la disponibilidad de alimento para polinizadores",
+                                "Impide la reproducción de esas plantas",
+                                "Disminuye la diversidad genética",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 13,
+                            "contexto": "Un ayuntamiento talza árboles viejos con cavidades para \"seguridad ciudadana\". [cite: 774]",
+                            "pregunta": "¿Qué se pierde ecológicamente? [cite: 775]",
+                            "opciones": [
+                                "Refugio para murciélagos, ardillas y aves insectívoras",
+                                "Control natural de plagas",
+                                "Etapas maduras del ecosistema forestal",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 14,
+                            "contexto": "Una urbanización construye un muro de hormigón junto a un arroyo. [cite: 780]",
+                            "pregunta": "¿Qué consecuencia tiene para el ecosistema fluvial? [cite: 781]",
+                            "opciones": [
+                                "Destruye la vegetación de ribera",
+                                "Impide la conexión entre ecosistemas terrestres y acuáticos",
+                                "Elimina zonas de sombra vitales para peces",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 15,
+                            "contexto": "Un cazador furtivo mata lobos por considerarlos una amenaza. [cite: 786]",
+                            "pregunta": "¿Qué papel ecológico crucial se interrumpe? [cite: 787]",
+                            "opciones": [
+                                "Control natural de poblaciones de herbívoros",
+                                "Selección de presas débiles o enfermas",
+                                "Mantenimiento del equilibrio del ecosistema",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 16,
+                            "contexto": "Una persona introduce tortugas de Florida en un estanque local. [cite: 792]",
+                            "pregunta": "¿Qué riesgo genera para la biodiversidad autóctona? [cite: 793]",
+                            "opciones": [
+                                "Competencia con especies nativas por alimento y espacio",
+                                "Transmisión de enfermedades exóticas",
+                                "Depredación sobre fauna local",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 17,
+                            "contexto": "Un agricultor drena una charca natural para ganar terreno de cultivo. [cite: 798]",
+                            "pregunta": "¿Qué biodiversidad se destruye directamente? [cite: 799]",
+                            "opciones": [
+                                "Anfibios, libélulas y aves acuáticas",
+                                "Microorganismos acuáticos",
+                                "Plantas palustres y de ribera",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 18,
+                            "contexto": "Una empresa forestal planta solo pino de crecimiento rápido tras talar un bosque mixto. [cite: 804]",
+                            "pregunta": "¿Qué problema crea este monocultivo? [cite: 805]",
+                            "opciones": [
+                                "Mayor vulnerabilidad a plagas e incendios",
+                                "Suelo más ácido y pobre",
+                                "Menor biodiversidad que en un bosque natural",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 19,
+                            "contexto": "Un ganadero sobrepastorea una dehesa con más animales de los que puede soportar. [cite: 810]",
+                            "pregunta": "¿Qué proceso de degradación desencadena? [cite: 811]",
+                            "opciones": [
+                                "Compactación y erosión del suelo",
+                                "Imposibilidad de regeneración de la vegetación",
+                                "Desertificación",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 20,
+                            "contexto": "Un proyecto de carretera fragmenta un bosque en dos mitades. [cite: 816]",
+                            "pregunta": "¿Qué problema crea para la fauna? [cite: 817]",
+                            "opciones": [
+                                "Aislamiento genético de poblaciones",
+                                "Mayor mortalidad por atropellos",
+                                "Barrera infranqueable para especies con poca movilidad",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        }
+                    ]
+                },
+                {
+                    "nivel": "Prácticas de Conservación (Dificultad Alta)",
+                    "total_preguntas": 20,
+                    "preguntas": [
+                        {
+                            "id": 21,
+                            "contexto": "Un productor de aceite no recicla el alpechín (residuo de la aceituna). [cite: 822]",
+                            "pregunta": "¿Qué contamina este vertido? [cite: 823]",
+                            "opciones": [
+                                "Suelos y aguas subterráneas",
+                                "Ríos y acuíferos",
+                                "Afecta a la microbiología del suelo",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 22,
+                            "contexto": "Un vecino quema hojas del jardín en otoño en lugar de compostarlas. [cite: 828]",
+                            "pregunta": "¿Qué beneficios pierde y qué daño causa? [cite: 829]",
+                            "opciones": [
+                                "Pierde nutrientes para el suelo y emite CO₂",
+                                "Contamina el aire y pierde materia orgánica",
+                                "Elimina insectos beneficiosos del suelo",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 23,
+                            "contexto": "Un turista se lleva piedras y fósiles de un espacio natural protegido. [cite: 834]",
+                            "pregunta": "¿Qué altera con este comportamiento? [cite: 835]",
+                            "opciones": [
+                                "Los procesos geológicos naturales",
+                                "El hábitat de microorganismos e insectos",
+                                "El patrimonio geológico y paisajístico",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 24,
+                            "contexto": "Una finca cambia de cultivos diversos a monocultivo intensivo de aguacate. [cite: 840]",
+                            "pregunta": "¿Qué impacto tiene este cambio? [cite: 841]",
+                            "opciones": [
+                                "Agotamiento acelerado de acuíferos",
+                                "Mayor dependencia de pesticidas",
+                                "Pérdida de diversidad agrícola y paisajística",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 25,
+                            "contexto": "Un constructor rellena una zona de matorral mediterráneo para urbanizar. [cite: 846]",
+                            "pregunta": "¿Qué ecosistema resiliente al fuego y la sequía se destruye? [cite: 847]",
+                            "opciones": [
+                                "El matorral, refugio de fauna y almacén de carbono",
+                                "Bosque de ribera",
+                                "Humedal costero",
+                                "Ninguno, no tiene valor"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 26,
+                            "contexto": "Un barranco se convierte en vertedero informal de escombros. [cite: 852]",
+                            "pregunta": "¿Qué riesgos ambientales conlleva? [cite: 853]",
+                            "opciones": [
+                                "Contaminación de acuíferos",
+                                "Alteración del drenaje natural y riesgo de inundaciones",
+                                "Destrucción de vegetación y fauna autóctona",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 27,
+                            "contexto": "Un senderista abre un atajo fuera del sendero marcado. [cite: 858]",
+                            "pregunta": "¿Qué proceso de degradación inicia? [cite: 859]",
+                            "opciones": [
+                                "Erosión del suelo y daño a la vegetación",
+                                "Molestia a la fauna silvestre",
+                                "Pérdida de la calidad escénica del paisaje",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 28,
+                            "contexto": "Un productor abandona tierras de cultivo en zona semiárida. [cite: 864]",
+                            "pregunta": "Sin gestión, ¿qué proceso de degradación es probable? [cite: 865]",
+                            "opciones": [
+                                "Desertificación y pérdida de suelo fértil",
+                                "Recuperación natural inmediata del bosque",
+                                "Aumento de la infiltración de agua",
+                                "Mejora automática de la biodiversidad"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 29,
+                            "contexto": "Una planta invasora (ej. uña de gato) cubre un talud natural. [cite: 870]",
+                            "pregunta": "¿Qué le ocurre a la vegetación nativa? [cite: 871]",
+                            "opciones": [
+                                "Es desplazada por competencia por luz y recursos",
+                                "Se ve privada de polinizadores",
+                                "Puede desaparecer localmente",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 30,
+                            "contexto": "Un apicultor coloca colmenas de abeja melífera en un espacio natural. [cite: 876]",
+                            "pregunta": "¿Qué impacto puede tener sobre los polinizadores silvestres? [cite: 877]",
+                            "opciones": [
+                                "Competencia por el néctar y el polen",
+                                "Transmisión de enfermedades",
+                                "Ambas son correctas",
+                                "Ninguna, siempre es beneficioso"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 31,
+                            "contexto": "Un ayuntamiento sustituye el césped de un parque por plantas autóctonas adaptadas a la sequía. [cite: 882]",
+                            "pregunta": "¿Qué beneficios logra? [cite: 883]",
+                            "opciones": [
+                                "Ahorro de agua y menor uso de maquinaria",
+                                "Mayor alimento para polinizadores locales",
+                                "Mejora de la biodiversidad urbana",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 32,
+                            "contexto": "Un colegio construye un \"hotel de insectos\" en el jardín. [cite: 888]",
+                            "pregunta": "¿Qué función ecológica cumple? [cite: 889]",
+                            "opciones": [
+                                "Ofrece refugio a insectos polinizadores y depredadores de plagas",
+                                "Sirve como herramienta de educación ambiental",
+                                "Ambas son correctas",
+                                "Ninguna, es solo decorativo"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 33,
+                            "contexto": "Un vecino instala una caja nido para aves en su jardín. [cite: 894]",
+                            "pregunta": "¿Qué problema urbano ayuda a controlar? [cite: 895]",
+                            "opciones": [
+                                "Las plagas de insectos, ya que muchas aves son insectívoras",
+                                "La proliferación de roedores",
+                                "Ambas son correctas",
+                                "Ninguna, no tiene impacto"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 34,
+                            "contexto": "Un agricultor deja \"islas\" de vegetación natural entre sus cultivos. [cite: 900]",
+                            "pregunta": "¿Qué servicio ecosistémico mantiene? [cite: 901]",
+                            "opciones": [
+                                "Refugio para fauna auxiliar beneficiosa",
+                                "Corredores ecológicos para la biodiversidad",
+                                "Conservación del banco de semillas del suelo",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 35,
+                            "contexto": "Una comunidad de vecinos decide no usar herbicidas en las zonas comunes. [cite: 906]",
+                            "pregunta": "¿Qué beneficio directo obtienen? [cite: 907]",
+                            "opciones": [
+                                "Mayor presencia de mariposas, abejas y otros polinizadores",
+                                "Suelos más sanos y con mayor vida microbiana",
+                                "Reducción de la contaminación química",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 36,
+                            "contexto": "Un municipio restaura un tramo de río, eliminando el encauzamiento de hormigón. [cite: 912]",
+                            "pregunta": "¿Qué se recupera? [cite: 913]",
+                            "opciones": [
+                                "La capacidad de autodepuración del río",
+                                "El hábitat para peces y macroinvertebrados",
+                                "La naturalidad del ecosistema fluvial",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 37,
+                            "contexto": "Un grupo de voluntarios retira plantas invasoras de un espacio natural. [cite: 918]",
+                            "pregunta": "¿Qué permiten con esta acción? [cite: 919]",
+                            "opciones": [
+                                "La recuperación de la vegetación autóctona",
+                                "La restauración del hábitat para la fauna nativa",
+                                "Ambas son correctas",
+                                "Ninguna, las invasoras siempre vuelven"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 38,
+                            "contexto": "Un viticultor practica viticultura regenerativa, plantando cubiertas vegetales entre vides. [cite: 924]",
+                            "pregunta": "¿Qué mejora en su finca? [cite: 925]",
+                            "opciones": [
+                                "La salud y la materia orgánica del suelo",
+                                "La retención de agua y la biodiversidad",
+                                "La resiliencia frente a plagas",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 39,
+                            "contexto": "Una familia con jardín deja un rincón \"sin gestionar\" con hojarasca y troncos. [cite: 930]",
+                            "pregunta": "¿Qué función ecológica cumple este rincón? [cite: 931]",
+                            "opciones": [
+                                "Refugio para erizos, lagartijas e insectos beneficiosos",
+                                "Zona de alimentación para aves insectívoras",
+                                "Ambas son correctas",
+                                "Ninguna, es un foco de suciedad"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 40,
+                            "contexto": "Un cazador participa en un programa de gestión que incluye siembra de linderos para la fauna. [cite: 936]",
+                            "pregunta": "¿Qué está favoreciendo? [cite: 937]",
+                            "opciones": [
+                                "La disponibilidad de alimento natural para las especies cinegéticas y no cinegéticas",
+                                "La creación de setos vivos que sirven de refugio",
+                                "La conectividad entre hábitats",
+                                "Todas las anteriores"
+                            ],
+                            "respuesta": "D"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tema": "Transición Energética y Cambio Climático",
+            "autores": ["Autores del Documento O.D.S 80 preguntas.docx"],
+            "niveles": [
+                {
+                    "nivel": "Innovación y Desafíos",
+                    "total_preguntas": 20,
+                    "preguntas": [
+                        {
+                            "id": 1,
+                            "contexto": "La energía hidroeléctrica a gran escala es considerada renovable, pero... [cite: 983]",
+                            "pregunta": "¿Cuál es su impacto ambiental más irreversible y severo? [cite: 984]",
+                            "opciones": [
+                                "Alteración total de ecosistemas fluviales y desplazamiento de comunidades.",
+                                "Emisión de metano por la descomposición de biomasa inundada.",
+                                "Fragmentación del hábitat acuático que impide la migración de peces.",
+                                "Alto consumo de agua por evaporación en embalses."
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 2,
+                            "contexto": "La biomasa se promociona como carbono-neutral, sin embargo... [cite: 989]",
+                            "pregunta": "¿Bajo qué condición esta premisa se vuelve falsa y contraproducente? [cite: 990]",
+                            "opciones": [
+                                "Cuando la tasa de deforestación supera la tasa de reforestación.",
+                                "Si el transporte de la biomasa requiere un alto consumo de combustibles fósiles.",
+                                "Cuando se queman cultivos dedicados en lugar de residuos forestales.",
+                                "Todas las anteriores."
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 3,
+                            "contexto": "Los vehículos eléctricos son clave para la descarbonización del transporte, no obstante... [cite: 995]",
+                            "pregunta": "¿Qué elemento de su cadena de suministro presenta el mayor riesgo de insostenibilidad? [cite: 996]",
+                            "opciones": [
+                                "La extracción de tierras raras para los imanes de los motores.",
+                                "La minería de litio y cobalto para las baterías.",
+                                "La fabricación de semiconductores para la electrónica de potencia.",
+                                "La producción de neumáticos y componentes de plástico."
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 4,
+                            "contexto": "Una red eléctrica 100% renovable es técnicamente posible, pero... [cite: 1001]",
+                            "pregunta": "¿Cuál es el obstáculo de ingeniería más complejo y costoso de superar? [cite: 1002]",
+                            "opciones": [
+                                "Gestionar la intermitencia (días sin viento o sin sol) a escala nacional.",
+                                "La resistencia política de las empresas de combustibles fósiles.",
+                                "La falta de espacio para instalar suficientes paneles solares.",
+                                "La baja eficiencia de las turbinas eólicas modernas."
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 5,
+                            "contexto": "El hidrógeno verde es una promesa para industrias pesadas, sin embargo... [cite: 1007]",
+                            "pregunta": "¿Cuál es la principal desventaja que limita su adopción masiva? [cite: 1008]",
+                            "opciones": [
+                                "Su extremadamente baja eficiencia energética global (\"del pozo a la rueda\").",
+                                "La alta peligrosidad por su alta inflamabilidad.",
+                                "La falta de tuberías existentes para su transporte.",
+                                "Su producción compite por el agua dulce necesaria para energías renovables."
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 6,
+                            "contexto": "La energía nuclear genera energía sin emisiones, pero... [cite: 1013]",
+                            "pregunta": "¿Cuál es el problema sin resolver que cuestiona su sostenibilidad a largo plazo? [cite: 1014]",
+                            "opciones": [
+                                "La gestión definitiva y segura de los residuos radiactivos de alta actividad.",
+                                "El riesgo de proliferación de armas nucleares.",
+                                "El alto costo y largo tiempo de construcción de nuevas plantas.",
+                                "El riesgo de accidentes catastróficos."
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 7,
+                            "contexto": "La captura directa de aire (DAC) puede eliminar CO₂ de la atmósfera, no obstante... [cite: 1019]",
+                            "pregunta": "¿Por qué se critica como una solución potencialmente engañosa? [cite: 1020]",
+                            "opciones": [
+                                "Requiere cantidades masivas de energía, pudiendo generar más emisiones de las que captura.",
+                                "El CO₂ capturado a menudo se usa para recuperación mejorada de petróleo.",
+                                "Su costo por tonelada es prohibitivamente alto comparado con otras soluciones climáticas.",
+                                "Todas las anteriores."
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 8,
+                            "contexto": "La geotérmica de alta entalpía es una fuente estable y limpia, sin embargo... [cite: 1025]",
+                            "pregunta": "¿Qué riesgo ambiental está asociado a la estimulación de rocas calientes (EGS)? [cite: 1026]",
+                            "opciones": [
+                                "La inducción de microsismicidad (terremotos de baja intensidad).",
+                                "La liberación de gases de efecto invernadero atrapados en el subsuelo.",
+                                "La contaminación de acuíferos con fluidos y metales pesados.",
+                                "El agotamiento localizado del calor terrestre a largo plazo."
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 9,
+                            "contexto": "La transición energética requiere minerales críticos, pero... [cite: 1031]",
+                            "pregunta": "¿Qué principio es esencial para evitar que su extracción genere nuevos conflictos? [cite: 1032]",
+                            "opciones": [
+                                "La \"Debida Diligencia Ambiental y Social\" en la minería.",
+                                "La relocalización (\"reshoring\") de toda la cadena de suministro.",
+                                "La congelación de la extracción en países en desarrollo.",
+                                "La sustitución sistemática por materiales orgánicos."
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 10,
+                            "contexto": "La eficiencia energética es la opción más rentable, sin embargo... [cite: 1037]",
+                            "pregunta": "¿Qué fenómeno paradójico puede anular sus beneficios ambientales? [cite: 1038]",
+                            "opciones": [
+                                "El \"Efecto Rebote\", donde el ahorro lleva a un mayor consumo global.",
+                                "La obsolescencia programada de los equipos eficientes.",
+                                "La complejidad de reciclar los nuevos materiales de alta eficiencia.",
+                                "La dependencia de subsidios gubernamentales permanentes."
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 11,
+                            "contexto": "Las \"smart grids\" optimizan el consumo, no obstante... [cite: 1043]",
+                            "pregunta": "¿Qué nueva vulnerabilidad introducen en el sistema eléctrico? [cite: 1044]",
+                            "opciones": [
+                                "Ciberataques a la infraestructura crítica de control.",
+                                "La exclusión de usuarios sin acceso a tecnología digital.",
+                                "La sobrecarga de datos que satura los sistemas de comunicación.",
+                                "El aumento de la radiación electromagnética en zonas urbanas."
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 12,
+                            "contexto": "La energía undimotriz y mareomotriz son predecibles, pero... [cite: 1049]",
+                            "pregunta": "¿Cuál es el mayor impedimento para su desarrollo comercial? [cite: 1050]",
+                            "opciones": [
+                                "El alto costo de mantenimiento en un entorno marino corrosivo y hostil.",
+                                "El impacto visual y acústico sobre el paisaje costero.",
+                                "La intermitencia de las olas comparado con la solar.",
+                                "El potencial daño a la vida marina, especialmente a mamíferos."
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 13,
+                            "contexto": "Los sistemas de almacenamiento por gravedad (ej. agua pumped-hydro) son fiables, sin embargo... [cite: 1055]",
+                            "pregunta": "¿Qué limitación geográfica restringe su implementación masiva? [cite: 1056]",
+                            "opciones": [
+                                "La necesidad de una topografía muy específica con dos embalses a diferente altura.",
+                                "La competencia por el uso del agua con la agricultura y las poblaciones.",
+                                "Su impacto en los ecosistemas fluviales y terrestres.",
+                                "Su baja eficiencia energética en comparación con las baterías."
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 14,
+                            "contexto": "La energía solar es la de más rápido crecimiento, pero... [cite: 1061]",
+                            "pregunta": "¿Qué problema de residuos se avecina con la primera generación de paneles que llega al fin de su vida útil? [cite: 1062]",
+                            "opciones": [
+                                "La falta de procesos de reciclaje rentables y escalables para recuperar todos los materiales.",
+                                "La presencia de metales pesados (como el plomo y el cadmio) que pueden lixiviarse.",
+                                "El enorme volumen físico de los paneles que colapsará los vertederos.",
+                                "La dificultad de separar el vidrio, el silicio y los polímeros plásticos."
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 15,
+                            "contexto": "La descarbonización del transporte aéreo es un gran desafío, no obstante... [cite: 1067]",
+                            "pregunta": "¿Cuál es la alternativa más viable con la tecnología actual? [cite: 1068]",
+                            "opciones": [
+                                "Los Combustibles Sostenibles de Aviación (SAF) derivados de biomasa o residuos.",
+                                "Los aviones propulsados por hidrógeno líquido.",
+                                "Los aviones totalmente eléctricos para rutas de corta y media distancia.",
+                                "La compensación de emisiones mediante proyectos de reforestación."
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 16,
+                            "contexto": "La electrificación de la calefacción con bombas de calor es eficiente, pero... [cite: 1073]",
+                            "pregunta": "¿En qué escenario su huella de carbono puede ser peor que la de una caldera de gas? [cite: 1074]",
+                            "opciones": [
+                                "Cuando la electricidad proviene mayoritariamente de carbón o gas.",
+                                "En climas extremadamente fríos donde su eficiencia cae en picado.",
+                                "Si se utilizan refrigerantes con un alto Potencial de Calentamiento Global (GWP).",
+                                "Todas las anteriores."
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 17,
+                            "contexto": "La energía eólica offshore tiene un factor de capacidad alto, sin embargo... [cite: 1079]",
+                            "pregunta": "¿Qué costo operativo es significativamente mayor que en la eólica terrestre? [cite: 1080]",
+                            "opciones": [
+                                "La instalación de cimentaciones y el tendido de cables submarinos.",
+                                "El mantenimiento y reparación de turbinas en alta mar.",
+                                "El impacto visual y conflictos con comunidades costeras.",
+                                "La interferencia con las rutas de navegación marítima."
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 18,
+                            "contexto": "El concepto \"Gas Natural\" se vende como un combustible puente, no obstante... [cite: 1085]",
+                            "pregunta": "¿Qué factor hace que este \"puente\" pueda ser más largo de lo deseable y contraproducente? [cite: 1086]",
+                            "opciones": [
+                                "Las fugas de metano (un GWP muy superior al CO₂) en toda la cadena de suministro.",
+                                "La creación de infraestructura de larga vida útil que \"bloquea\" el uso de gas.",
+                                "La desinversión en energías renovables al considerarse una solución temporal.",
+                                "Todas las anteriores."
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 19,
+                            "contexto": "La financiación verde es crucial para la transición, pero... [cite: 1091]",
+                            "pregunta": "¿Qué práctica, conocida como \"greenwashing\", socava su credibilidad? [cite: 1092]",
+                            "opciones": [
+                                "Etiquetar proyectos de gas natural o \"menos contaminantes\" como verdes.",
+                                "Invertir en una empresa solo porque tiene un pequeño departamento de sostenibilidad.",
+                                "Reportar beneficios ambientales sin una metodología estandarizada y verificable.",
+                                "Todas las anteriores."
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 20,
+                            "contexto": "El acceso universal a energía moderna es un ODS, sin embargo... [cite: 1097]",
+                            "pregunta": "¿Qué modelo es más sostenible para comunidades rurales aisladas? [cite: 1098]",
+                            "opciones": [
+                                "Micro-redes locales basadas en energías renovables.",
+                                "Extensión de la red eléctrica nacional cientos de kilómetros.",
+                                "Sistemas solares individuales domiciliarios.",
+                                "Depender de generadores diésel comunitarios."
+                            ],
+                            "respuesta": "A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

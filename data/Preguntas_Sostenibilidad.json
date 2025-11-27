@@ -1,0 +1,836 @@
+{
+    "database_info": {
+        "titulo": "Base de Datos de Preguntas - Sostenibilidad Ambiental",
+        "descripcion": "Compilación completa de preguntas sobre temas ambientales y desarrollo sostenible",
+        "fecha_creacion": "2025",
+        "total_temas": 1
+    },
+    "temas": [
+        {
+            "tema": "SOSTENIBILIDAD AMBIENTAL",
+            "autores": ["Equipo Compilador"],
+            "niveles": [
+                {
+                    "nivel": "Dificultad Baja",
+                    "total_preguntas": 20,
+                    "preguntas": [
+                        {
+                            "id": 1,
+                            "pregunta": "La sostenibilidad busca:",
+                            "opciones": [
+                                "Producir más sin importar los recursos",
+                                "Satisfacer necesidades presentes sin afectar el futuro",
+                                "Aumentar el consumo global"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 2,
+                            "pregunta": "¿Qué pilares forman la sostenibilidad?",
+                            "opciones": [
+                                "Político, social y ambiental",
+                                "Económico, social y ambiental",
+                                "Cultural, político y económico"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 3,
+                            "pregunta": "La sostenibilidad ambiental se centra en:",
+                            "opciones": [
+                                "La economía de mercado",
+                                "La protección del medio ambiente",
+                                "La política internacional"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 4,
+                            "pregunta": "La sostenibilidad social promueve:",
+                            "opciones": [
+                                "La equidad y el bienestar",
+                                "El aumento de la producción",
+                                "El comercio global"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 5,
+                            "pregunta": "La sostenibilidad económica busca:",
+                            "opciones": [
+                                "Crecimiento sin límites",
+                                "Equilibrio entre ganancias y recursos",
+                                "Reducción total de la economía"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 6,
+                            "pregunta": "¿Qué documento introdujo el concepto de desarrollo sostenible?",
+                            "opciones": [
+                                "Informe Brundtland",
+                                "Tratado de Kioto",
+                                "Acuerdo de París"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 7,
+                            "pregunta": "La energía solar es un ejemplo de:",
+                            "opciones": [
+                                "Energía fósil",
+                                "Energía no renovable",
+                                "Energía renovable"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 8,
+                            "pregunta": "¿Qué es reciclar?",
+                            "opciones": [
+                                "Desechar sin clasificar",
+                                "Reutilizar materiales para nuevos productos",
+                                "Comprar productos nuevos"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 9,
+                            "pregunta": "¿Qué es la biodiversidad?",
+                            "opciones": [
+                                "La variedad de especies vivas",
+                                "El número de fábricas",
+                                "El desarrollo urbano"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 10,
+                            "pregunta": "¿Qué busca la Agenda 2030?",
+                            "opciones": [
+                                "Fomentar el comercio",
+                                "Lograr los Objetivos de Desarrollo Sostenible",
+                                "Impulsar el consumo masivo"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 11,
+                            "pregunta": "¿Qué representa la huella de carbono?",
+                            "opciones": [
+                                "La cantidad de agua usada",
+                                "Las emisiones de CO₂ de una persona o actividad",
+                                "El crecimiento económico"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 12,
+                            "pregunta": "¿Qué pilar se relaciona con la igualdad de oportunidades?",
+                            "opciones": ["Ambiental", "Social", "Económico"],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 13,
+                            "pregunta": "¿Qué significa desarrollo sostenible?",
+                            "opciones": [
+                                "Crecer económicamente sin límites",
+                                "Desarrollar sin dañar el ambiente",
+                                "Aumentar la producción industrial"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 14,
+                            "pregunta": "¿Qué es la contaminación?",
+                            "opciones": [
+                                "Alteración del medio ambiente por sustancias dañinas",
+                                "Conservación de la naturaleza",
+                                "Purificación del agua"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 15,
+                            "pregunta": "¿Qué es la educación ambiental?",
+                            "opciones": [
+                                "Enseñar técnicas de producción",
+                                "Promover hábitos de cuidado ambiental",
+                                "Educar solo sobre economía"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 16,
+                            "pregunta": "¿Qué busca el reciclaje?",
+                            "opciones": [
+                                "Aumentar los residuos",
+                                "Reducir y reutilizar materiales",
+                                "Consumir más recursos"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 17,
+                            "pregunta": "¿Qué es la equidad social?",
+                            "opciones": [
+                                "Igualdad en derechos y oportunidades",
+                                "Reparto desigual de recursos",
+                                "Competencia económica"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 18,
+                            "pregunta": "¿Qué significa “energía limpia”?",
+                            "opciones": [
+                                "Energía sin contaminación",
+                                "Energía derivada del petróleo",
+                                "Energía nuclear"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 19,
+                            "pregunta": "¿Qué es la economía circular?",
+                            "opciones": [
+                                "Modelo de consumo ilimitado",
+                                "Reutilizar recursos en un ciclo continuo",
+                                "Sistema basado en el derroche"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 20,
+                            "pregunta": "¿Qué mide la huella ecológica?",
+                            "opciones": [
+                                "El impacto humano sobre el planeta",
+                                "El tamaño de la población",
+                                "El nivel de educación"
+                            ],
+                            "respuesta": "A"
+                        }
+                    ]
+                },
+                {
+                    "nivel": "Dificultad Media",
+                    "total_preguntas": 20,
+                    "preguntas": [
+                        {
+                            "id": 1,
+                            "pregunta": "¿Por qué debemos cuidar los recursos naturales?",
+                            "opciones": [
+                                "Porque son ilimitados",
+                                "Porque son finitos y esenciales",
+                                "Porque no tienen valor económico"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 2,
+                            "pregunta": "¿Qué actividad humana aumenta el cambio climático?",
+                            "opciones": [
+                                "La reforestación",
+                                "El uso de combustibles fósiles",
+                                "La conservación del agua"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 3,
+                            "pregunta": "La sostenibilidad social busca:",
+                            "opciones": [
+                                "Desigualdad económica",
+                                "Justicia y bienestar para todos",
+                                "Crecimiento individual"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 4,
+                            "pregunta": "¿Qué efecto tiene el uso excesivo de combustibles fósiles?",
+                            "opciones": [
+                                "Aumenta la pureza del aire",
+                                "Genera gases de efecto invernadero",
+                                "Mejora el clima"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 5,
+                            "pregunta": "Las energías renovables son sostenibles porque:",
+                            "opciones": [
+                                "No se agotan y no contaminan",
+                                "Son costosas y escasas",
+                                "Provienen del carbón"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 6,
+                            "pregunta": "¿Por qué es importante reciclar?",
+                            "opciones": [
+                                "Porque aumenta la contaminación",
+                                "Porque reduce residuos y ahorra recursos",
+                                "Porque destruye los ecosistemas"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 7,
+                            "pregunta": "Los tres pilares de la sostenibilidad deben:",
+                            "opciones": [
+                                "Trabajar por separado",
+                                "Mantener equilibrio e integración",
+                                "Enfocarse solo en lo económico"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 8,
+                            "pregunta": "La biodiversidad permite:",
+                            "opciones": [
+                                "Mantener el equilibrio ecológico",
+                                "Aumentar la deforestación",
+                                "Reducir la vida animal"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 9,
+                            "pregunta": "¿Qué consecuencia genera la deforestación?",
+                            "opciones": [
+                                "Disminución del CO₂",
+                                "Aumento de la erosión y pérdida de hábitat",
+                                "Mejora del clima"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 10,
+                            "pregunta": "¿Qué papel tienen las empresas sostenibles?",
+                            "opciones": [
+                                "Generar ganancias sin control",
+                                "Actuar con responsabilidad social y ambiental",
+                                "Evadir impuestos"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 11,
+                            "pregunta": "La justicia ambiental promueve:",
+                            "opciones": [
+                                "El derecho a un ambiente sano",
+                                "La privatización de recursos",
+                                "La contaminación industrial"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 12,
+                            "pregunta": "El principio de precaución indica:",
+                            "opciones": [
+                                "Actuar solo cuando haya pruebas absolutas",
+                                "Prevenir daños ambientales, aunque haya incertidumbre",
+                                "Ignorar los riesgos"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 13,
+                            "pregunta": "La equidad intergeneracional se refiere a:",
+                            "opciones": [
+                                "Pensar solo en el presente",
+                                "Garantizar recursos para las generaciones futuras",
+                                "Aumentar la producción actual"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 14,
+                            "pregunta": "Las ciudades sostenibles se caracterizan por:",
+                            "opciones": [
+                                "Contaminación y tráfico",
+                                "Transporte limpio y espacios verdes",
+                                "Aumento del consumo"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 15,
+                            "pregunta": "El consumo responsable busca:",
+                            "opciones": [
+                                "Comprar sin control",
+                                "Adquirir lo necesario y sostenible",
+                                "Promover el derroche"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 16,
+                            "pregunta": "¿Cómo ayuda la educación ambiental?",
+                            "opciones": [
+                                "Despierta conciencia ecológica",
+                                "Incrementa la contaminación",
+                                "Reduce la participación social"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 17,
+                            "pregunta": "La participación ciudadana en la sostenibilidad es:",
+                            "opciones": [
+                                "Innecesaria",
+                                "Fundamental para el cambio",
+                                "Solo para expertos"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 18,
+                            "pregunta": "¿Cómo contribuye la innovación a la sostenibilidad?",
+                            "opciones": [
+                                "Creando tecnologías limpias",
+                                "Aumentando el consumo energético",
+                                "Destruyendo empleos"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 19,
+                            "pregunta": "¿Qué causa la contaminación del agua?",
+                            "opciones": [
+                                "Uso racional de recursos",
+                                "Vertimiento de desechos industriales",
+                                "Tratamiento de aguas residuales"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 20,
+                            "pregunta": "La economía circular propone:",
+                            "opciones": [
+                                "Producir y desechar",
+                                "Reducir, reutilizar y reciclar",
+                                "Extraer sin límite"
+                            ],
+                            "respuesta": "B"
+                        }
+                    ]
+                },
+                {
+                    "nivel": "Dificultad Alta",
+                    "total_preguntas": 20,
+                    "preguntas": [
+                        {
+                            "id": 1,
+                            "pregunta": "¿Cómo puede lograrse equilibrio entre economía y ambiente?",
+                            "opciones": [
+                                "Explotando recursos sin límites",
+                                "Promoviendo producción sostenible",
+                                "Ignorando impactos ecológicos"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 2,
+                            "pregunta": "Una empresa circular debe:",
+                            "opciones": [
+                                "Usar materiales reciclados y minimizar desechos",
+                                "Producir más residuos",
+                                "Depender del petróleo"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 3,
+                            "pregunta": "La falta de sostenibilidad ambiental provoca:",
+                            "opciones": [
+                                "Bienestar social",
+                                "Problemas económicos y sociales",
+                                "Estabilidad climática"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 4,
+                            "pregunta": "El cambio climático afecta la alimentación porque:",
+                            "opciones": [
+                                "Mejora las cosechas",
+                                "Provoca sequías e inundaciones",
+                                "No tiene impacto"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 5,
+                            "pregunta": "Una ciudad sostenible debe tener:",
+                            "opciones": [
+                                "Energía limpia y transporte ecológico",
+                                "Más autos y menos transporte público",
+                                "Deforestación urbana"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 6,
+                            "pregunta": "La educación ambiental transforma comunidades porque:",
+                            "opciones": [
+                                "Aumenta la contaminación",
+                                "Fomenta conciencia y acción ecológica",
+                                "Promueve el consumo masivo"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 7,
+                            "pregunta": "La pobreza y la degradación ambiental están relacionadas porque:",
+                            "opciones": [
+                                "Las comunidades pobres dependen de recursos naturales",
+                                "No hay relación entre ambas",
+                                "Las zonas pobres contaminan menos"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 8,
+                            "pregunta": "La cooperación internacional es clave porque:",
+                            "opciones": [
+                                "Los problemas ambientales son globales",
+                                "Cada país actúa solo",
+                                "No afecta a otros países"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 9,
+                            "pregunta": "Los ODS guían:",
+                            "opciones": [
+                                "Políticas y acciones hacia el desarrollo sostenible",
+                                "El comercio internacional",
+                                "La competencia económica"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 10,
+                            "pregunta": "Si se descuida un pilar de la sostenibilidad:",
+                            "opciones": [
+                                "El equilibrio se rompe",
+                                "No ocurre nada",
+                                "Se mejora la economía"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 11,
+                            "pregunta": "¿Por qué el agua es vital en la sostenibilidad?",
+                            "opciones": [
+                                "Es renovable y siempre abundante",
+                                "Es esencial y escasa en muchos lugares",
+                                "No tiene valor ambiental"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 12,
+                            "pregunta": "Reducir la huella ecológica implica:",
+                            "opciones": [
+                                "Usar más recursos",
+                                "Disminuir consumo y emisiones",
+                                "Comprar más productos"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 13,
+                            "pregunta": "La cultura influye en la sostenibilidad porque:",
+                            "opciones": [
+                                "Determina hábitos y valores ambientales",
+                                "No tiene relación",
+                                "Depende solo de la economía"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 14,
+                            "pregunta": "La agricultura sostenible busca:",
+                            "opciones": [
+                                "Aumentar producción sin cuidar el suelo",
+                                "Mantener productividad y cuidar el ambiente",
+                                "Usar más agroquímicos"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 15,
+                            "pregunta": "La responsabilidad social empresarial promueve:",
+                            "opciones": [
+                                "Beneficios solo económicos",
+                                "Compromiso con sociedad y ambiente",
+                                "Reducción de empleos"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 16,
+                            "pregunta": "La transición energética consiste en:",
+                            "opciones": [
+                                "Sustituir energías fósiles por renovables",
+                                "Usar más carbón",
+                                "Reducir las renovables"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 17,
+                            "pregunta": "La sobreexplotación de recursos genera:",
+                            "opciones": [
+                                "Escasez y deterioro ambiental",
+                                "Mayor sostenibilidad",
+                                "Conservación natural"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 18,
+                            "pregunta": "Los indicadores de sostenibilidad sirven para:",
+                            "opciones": [
+                                "Evaluar impactos y avances",
+                                "Crear más contaminación",
+                                "Eliminar recursos"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 19,
+                            "pregunta": "La innovación sostenible busca:",
+                            "opciones": [
+                                "Soluciones que reduzcan impacto ambiental",
+                                "Aumentar el consumo",
+                                "Favorecer solo la economía"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 20,
+                            "pregunta": "La gobernanza ambiental implica:",
+                            "opciones": [
+                                "Gestión participativa y transparente",
+                                "Control privado de recursos",
+                                "Eliminación de normas"
+                            ],
+                            "respuesta": "A"
+                        }
+                    ]
+                },
+                {
+                    "nivel": "Dificultad Extrema",
+                    "total_preguntas": 20,
+                    "preguntas": [
+                        {
+                            "id": 1,
+                            "pregunta": "La Agenda 2030 será efectiva si:",
+                            "opciones": [
+                                "Todos los países cumplen sus compromisos",
+                                "Se ignoran los ODS",
+                                "Solo actúan los países desarrollados"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 2,
+                            "pregunta": "Para fortalecer la sostenibilidad en la educación se necesita:",
+                            "opciones": [
+                                "Enseñar valores ecológicos y éticos",
+                                "Eliminar temas ambientales",
+                                "Fomentar consumo"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 3,
+                            "pregunta": "¿Es posible un crecimiento económico totalmente sostenible?",
+                            "opciones": [
+                                "Sí, si se equilibra con límites ecológicos",
+                                "No, porque destruye el ambiente",
+                                "Solo si se produce más"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 4,
+                            "pregunta": "Reducir la huella ecológica personal implica:",
+                            "opciones": [
+                                "Usar transporte público y reciclar",
+                                "Comprar más productos",
+                                "Desperdiciar energía"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 5,
+                            "pregunta": "Los países en desarrollo enfrentan obstáculos porque:",
+                            "opciones": [
+                                "Tienen menos recursos y tecnología",
+                                "No desean participar",
+                                "No sufren impactos ambientales"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 6,
+                            "pregunta": "La tecnología digital puede ser sostenible si:",
+                            "opciones": [
+                                "Usa energías limpias y eficiencia",
+                                "Genera más residuos electrónicos",
+                                "Aumenta el consumo eléctrico"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 7,
+                            "pregunta": "La gobernanza ambiental enfrenta retos como:",
+                            "opciones": [
+                                "Corrupción y falta de cooperación",
+                                "Total cumplimiento global",
+                                "Abundancia de recursos"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 8,
+                            "pregunta": "Las empresas deberían medir su impacto ambiental mediante:",
+                            "opciones": [
+                                "Indicadores y reportes de sostenibilidad",
+                                "Publicidad verde sin datos",
+                                "Competencia desleal"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 9,
+                            "pregunta": "La juventud tiene un papel clave porque:",
+                            "opciones": [
+                                "Puede impulsar cambios sostenibles",
+                                "No tiene responsabilidad",
+                                "Depende solo del gobierno"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 10,
+                            "pregunta": "Un proyecto local sostenible debe:",
+                            "opciones": [
+                                "Beneficiar comunidad y ambiente",
+                                "Usar más recursos naturales",
+                                "Excluir la participación ciudadana"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 11,
+                            "pregunta": "Un dilema ético en sostenibilidad es:",
+                            "opciones": [
+                                "Elegir entre crecimiento económico y ambiente",
+                                "No tomar decisiones",
+                                "Priorizar solo la tecnología"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 12,
+                            "pregunta": "La cultura de consumo afecta porque:",
+                            "opciones": [
+                                "Genera más residuos y sobreexplotación",
+                                "Mejora el medio ambiente",
+                                "Reduce la contaminación"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 13,
+                            "pregunta": "La justicia ambiental busca:",
+                            "opciones": [
+                                "Igualdad frente a daños ambientales",
+                                "Beneficio solo económico",
+                                "Exclusión social"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 14,
+                            "pregunta": "La cooperación internacional es importante porque:",
+                            "opciones": [
+                                "Los problemas ambientales no tienen fronteras",
+                                "Cada país actúa solo",
+                                "El ambiente no requiere acuerdos"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 15,
+                            "pregunta": "Para conservar la biodiversidad se debe:",
+                            "opciones": [
+                                "Proteger hábitats y especies",
+                                "Fomentar la deforestación",
+                                "Aumentar la caza"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 16,
+                            "pregunta": "La relación entre tecnología e impacto ambiental es:",
+                            "opciones": [
+                                "Puede reducir o aumentar la degradación según su uso",
+                                "Siempre negativa",
+                                "No existe"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 17,
+                            "pregunta": "Las políticas efectivas para impulsar energías limpias deben:",
+                            "opciones": [
+                                "Incentivar inversión y educación ambiental",
+                                "Eliminar energías renovables",
+                                "Favorecer combustibles fósiles"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 18,
+                            "pregunta": "El rol de la mujer en la sostenibilidad es:",
+                            "opciones": [
+                                "Fundamental en liderazgo y educación",
+                                "Irrelevante",
+                                "Exclusivamente doméstico"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 19,
+                            "pregunta": "El modelo económico actual se considera insostenible porque:",
+                            "opciones": [
+                                "Prioriza el consumo y el crecimiento ilimitado",
+                                "Protege el medio ambiente",
+                                "Reduce la contaminación"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 20,
+                            "pregunta": "Un mundo totalmente sostenible se caracterizaría por:",
+                            "opciones": [
+                                "Equilibrio entre sociedad, economía y ambiente",
+                                "Producción ilimitada",
+                                "Ausencia de políticas ambientales"
+                            ],
+                            "respuesta": "A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

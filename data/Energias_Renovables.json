@@ -1,0 +1,947 @@
+{
+    "database_info": {
+        "titulo": "Base de Datos de Preguntas - Energías Renovables y Sostenibilidad Ambiental",
+        "descripcion": "Compilación completa de preguntas sobre Energías Renovables en el contexto de Colombia.",
+        "fecha_creacion": "2025",
+        "total_temas": 1
+    },
+    "temas": [
+        {
+            "tema": "ENERGIAS RENOVABLES",
+            "autores": [
+                "Jeison Andres Males Goyes",
+                "Jaider Ronaldo Martinez Obando",
+                "Jhon Deivi Huaca Criollo",
+                "Jefferson Andres Claros Muñoz",
+                "Andrea Camila Ortiz Mayoral",
+                "Wilian Stiven Cacais Acosta"
+            ],
+            "niveles": [
+                {
+                    "nivel": "Dificultad Baja",
+                    "total_preguntas": 20,
+                    "preguntas": [
+                        {
+                            "id": 1,
+                            "pregunta": "¿Cuál es la principal fuente de energía primaria utilizada tradicionalmente en Colombia?",
+                            "opciones": [
+                                "A) Carbón",
+                                "B) Gas Natural",
+                                "C) Hidroelectricidad",
+                                "D) Energía Solar"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 2,
+                            "pregunta": "¿Qué tipo de fuentes de energía se obtienen de recursos naturales que se regeneran de manera continua, como el sol y el viento?",
+                            "opciones": [
+                                "A) Combustibles Fósiles",
+                                "B) Energía Nuclear",
+                                "C) Energías Renovables",
+                                "D) Gas Licuado de Petróleo"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 3,
+                            "pregunta": "¿Cuál es la ley marco en Colombia que regula la integración de las Energías Renovables No Convencionales (FNCER) al Sistema Energético Nacional?",
+                            "opciones": [
+                                "A) Ley 142 de 1994",
+                                "B) Ley 1715 de 2014",
+                                "C) Ley 388 de 1997",
+                                "D) Ley 2294 de 2023"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 4,
+                            "pregunta": "¿Cuál es el acrónimo utilizado en Colombia para referirse a las Fuentes No Convencionales de Energía Renovable?",
+                            "opciones": [
+                                "A) PCH",
+                                "B) SIN",
+                                "C) FNCER",
+                                "D) CREG"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 5,
+                            "pregunta": "¿Qué tipo de energía renovable se destaca por el inmenso potencial existente en la región de La Guajira?",
+                            "opciones": [
+                                "A) Geotérmica",
+                                "B) Mareomotriz",
+                                "C) Eólica",
+                                "D) Biomasa"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 6,
+                            "pregunta": "¿Qué entidad en Colombia tiene como función principal la regulación de los sectores de energía eléctrica, gas natural y combustibles líquidos?",
+                            "opciones": [
+                                "A) UPME",
+                                "B) ANLA",
+                                "C) CREG",
+                                "D) MME"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 7,
+                            "pregunta": "¿Cuál es uno de los objetivos principales de la Ley 1715 de 2014, modificado por la Ley 2099 de 2021?",
+                            "opciones": [
+                                "A) Promover únicamente la explotación de carbón",
+                                "B) Reducir las importaciones de petróleo",
+                                "C) Reducir las emisiones de gases de efecto invernadero (GEI)",
+                                "D) Aumentar la dependencia hidroeléctrica"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 8,
+                            "pregunta": "¿Qué institución debe calificar y certificar los proyectos de FNCER para que los inversionistas puedan acceder a los beneficios fiscales?",
+                            "opciones": [
+                                "A) CREG",
+                                "B) ANLA",
+                                "C) UPME",
+                                "D) Ministerio de Hacienda"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 9,
+                            "pregunta": "¿Qué tipo de fuente no convencional de energía se obtiene a partir del calor interno de la tierra?",
+                            "opciones": [
+                                "A) Biomasa",
+                                "B) Solar Fotovoltaica",
+                                "C) Geotérmica",
+                                "D) Eólica"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 10,
+                            "pregunta": "¿Cuál es el nombre de uno de los grandes parques solares emblemáticos de Enel en Colombia?",
+                            "opciones": [
+                                "A) El Quimbo",
+                                "B) Guayepo III",
+                                "C) Hidroituango",
+                                "D) Ciro Redondo"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 11,
+                            "pregunta": "La biomasa residual en Colombia es considerada renovable porque:",
+                            "opciones": [
+                                "A) No genera CO2",
+                                "B) Se extrae a mayor velocidad de la que se regenera",
+                                "C) Es capaz de regenerarse a una mayor velocidad de la que se extrae",
+                                "D) Es un combustible fósil"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 12,
+                            "pregunta": "¿Qué concepto se define como el uso eficiente de la energía y sistemas de medición inteligente, clave en la Ley 1715?",
+                            "opciones": [
+                                "A) PROURE",
+                                "B) GEE (Gestión Eficiente de la Energía)",
+                                "C) SIN",
+                                "D) ANLA"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 13,
+                            "pregunta": "La Ley 2099 de 2021, conocida como la Ley de Transición Energética, ¿a qué ley principal modificó para fortalecer el sector FNCER?",
+                            "opciones": [
+                                "A) Ley 143 de 1994",
+                                "B) Ley 1715 de 2014",
+                                "C) Ley 142 de 1994",
+                                "D) Ley 80 de 1993"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 14,
+                            "pregunta": "¿Cuál de las siguientes es una de las tecnologías FNCER comúnmente utilizada en las Zonas No Interconectadas (ZNI) en Colombia?",
+                            "opciones": [
+                                "A) Carbón",
+                                "B) Pequeños Aprovechamientos Hidroeléctricos (PCH)",
+                                "C) Gasolina",
+                                "D) Nuclear"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 15,
+                            "pregunta": "¿Qué departamento de Colombia es reconocido por tener el mayor potencial para proyectos eólicos y solar a gran escala?",
+                            "opciones": [
+                                "A) Atlántico",
+                                "B) Meta",
+                                "C) Cundinamarca",
+                                "D) La Guajira"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 16,
+                            "pregunta": "El objetivo de las Comunidades Energéticas (CE) se establece en qué tipo de norma reciente:",
+                            "opciones": [
+                                "A) Una Ley del Congreso",
+                                "B) Un Decreto presidencial",
+                                "C) Una Resolución de la CREG",
+                                "D) Un Acuerdo municipal"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 17,
+                            "pregunta": "¿Cuál de los siguientes no es un beneficio fiscal ofrecido por la Ley 1715 (modificada) para proyectos FNCER?",
+                            "opciones": [
+                                "A) Deducción de Renta",
+                                "B) Depreciación Acelerada",
+                                "C) Exclusión de IVA",
+                                "D) Subsidio directo al consumo"
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 18,
+                            "pregunta": "¿Cuál de estas fuentes es clasificada como Combustible Fósil, cuya reserva se está agotando en Colombia?",
+                            "opciones": [
+                                "A) Sol",
+                                "B) Viento",
+                                "C) Carbón",
+                                "D) Biomasa"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 19,
+                            "pregunta": "El propósito de las exenciones arancelarias es fomentar la inversión en FNCER al reducir el costo de:",
+                            "opciones": [
+                                "A) Mano de obra",
+                                "B) Tierras",
+                                "C) Equipos importados",
+                                "D) Mantenimiento"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 20,
+                            "pregunta": "La meta de largo plazo (2050) de Colombia para alcanzar una capacidad instalada de energía renovable (solar/eólica) es, al menos:",
+                            "opciones": [
+                                "A) 12 GW",
+                                "B) 23 GW",
+                                "C) 100 GW",
+                                "D) 500 MW"
+                            ],
+                            "respuesta": "C"
+                        }
+                    ]
+                },
+                {
+                    "nivel": "Dificultad Media",
+                    "total_preguntas": 20,
+                    "preguntas": [
+                        {
+                            "id": 1,
+                            "pregunta": "¿Cuál es el porcentaje de deducción sobre el impuesto de renta permitido para la inversión en FNCER, según la Ley 1715/2014, modificada por la Ley 2099/2021?",
+                            "opciones": [
+                                "A) 25%",
+                                "B) 30%",
+                                "C) 50%",
+                                "D) 100%"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 2,
+                            "pregunta": "¿En cuántos años, a partir del inicio de la operación, puede el contribuyente tomar la deducción especial del 50% sobre el impuesto de renta por inversiones en FNCER?",
+                            "opciones": [
+                                "A) 5 años",
+                                "B) 10 años",
+                                "C) 15 años",
+                                "D) 30 años"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 3,
+                            "pregunta": "Para proyectos FNCER, ¿cuál es la tasa anual de depreciación acelerada permitida, lo que resulta en una vida útil fiscal de 3 años?",
+                            "opciones": [
+                                "A) 20%",
+                                "B) 33.33%",
+                                "C) 50%",
+                                "D) 100%"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 4,
+                            "pregunta": "Según el Plan 6GW+, ¿cuál era la capacidad total de FNCER/PCH instalada o en pruebas reportada (cifras de 2024)?",
+                            "opciones": [
+                                "A) 6 GW",
+                                "B) Menos de 1 GW",
+                                "C) 3,140.01 MW",
+                                "D) 7,493 MW"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 5,
+                            "pregunta": "¿Hasta qué año tienen vigencia los beneficios fiscales para proyectos FNCER establecidos en la Ley 1715/2014?",
+                            "opciones": [
+                                "A) 2030",
+                                "B) 2040",
+                                "C) 2051",
+                                "D) Indefinido"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 6,
+                            "pregunta": "¿Cuál es el rol de la ANLA en la aplicación de los beneficios fiscales FNCER?",
+                            "opciones": [
+                                "A) Calificación del proyecto",
+                                "B) Expedición de la licencia ambiental y certificación para exclusión de IVA",
+                                "C) Regulación de tarifas",
+                                "D) Planeación de la red"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 7,
+                            "pregunta": "Según las metas de Transición Energética Justa de Colombia, ¿a qué porcentaje se espera incrementar la participación de la energía eléctrica en el consumo final para el año 2030?",
+                            "opciones": [
+                                "A) 18%",
+                                "B) 35%",
+                                "C) 70%",
+                                "D) 100%"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 8,
+                            "pregunta": "¿Cuál de las siguientes FNCER ha sido considerada por la legislación colombiana (Ley 2099 de 2021 y sus decretos) para su desarrollo en el marco de la transición energética?",
+                            "opciones": [
+                                "A) Energía Geotérmica profunda",
+                                "B) Hidrógeno Blanco y Azul",
+                                "C) Fisión Nuclear",
+                                "D) Conversión Térmica Oceánica"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 9,
+                            "pregunta": "El objeto de las Comunidades Energéticas establecido por el Decreto 2236 de 2023 se centra en el uso de qué tipo de fuentes:",
+                            "opciones": [
+                                "A) FNCER exclusivamente",
+                                "B) Carbón y Gas",
+                                "C) Petróleo y ACPM",
+                                "D) Solo grandes hidroeléctricas"
+                            ],
+                            "respuesta": "A"
+                        },
+                        {
+                            "id": 10,
+                            "pregunta": "¿Cuál de las siguientes entidades internacionales está relacionada con la UPME?",
+                            "opciones": [
+                                "A) ONU",
+                                "B) OPEP",
+                                "C) Agencia Internacional de Energías Renovables (IRENA)",
+                                "D) Banco Mundial"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 11,
+                            "pregunta": "¿Qué tipo de proyectos fueron catalogados como FNCER mediante la adición del artículo 22 a la Ley 1715 por la Ley 2099 de 2021?",
+                            "opciones": [
+                                "A) Grandes represas",
+                                "B) Pequeños aprovechamientos hidroeléctricos",
+                                "C) Plantas de ciclo combinado",
+                                "D) Termoeléctricas a gas"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 12,
+                            "pregunta": "¿En qué departamento colombiano se ubica el proyecto FNCER “CUBARRAL”, otorgado a ECOPETROL S.A. en 2024?",
+                            "opciones": [
+                                "A) La Guajira",
+                                "B) Atlántico",
+                                "C) Meta",
+                                "D) Antioquia"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 13,
+                            "pregunta": "Según las cifras de capacidad FNCER instalada (Feb 2025), ¿cuál departamento tenía la mayor capacidad monitoreada?",
+                            "opciones": [
+                                "A) La Guajira",
+                                "B) Cesar",
+                                "C) Atlántico",
+                                "D) Córdoba"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 14,
+                            "pregunta": "Para la importación de equipos FNCER, ¿qué beneficio fiscal exige certificación de las autoridades competentes?",
+                            "opciones": [
+                                "A) Impuesto de Renta",
+                                "B) Exclusión de IVA y Exención Arancelaria",
+                                "C) Impuesto Predial",
+                                "D) Ganancia Ocasional"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 15,
+                            "pregunta": "¿Qué región de Colombia concentra un flujo de calor geotérmico destacado para exploración?",
+                            "opciones": [
+                                "A) El Eje Cafetero",
+                                "B) Paipa-Samacá",
+                                "C) La Amazonía",
+                                "D) San Andrés"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 16,
+                            "pregunta": "¿Qué porcentaje de la capacidad total del Plan 6GW+ corresponde a la capacidad ya instalada y en operación?",
+                            "opciones": [
+                                "A) 100%",
+                                "B) 61% (1922.22 MW de 3140.01 MW)",
+                                "C) 5%",
+                                "D) 90%"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 17,
+                            "pregunta": "¿Qué tipo de generación de energía produce electricidad para atender sus propias necesidades con capacidad superior al límite regulado por UPME?",
+                            "opciones": [
+                                "A) Generación Distribuida",
+                                "B) Autogenerador a Gran Escala (AGGE)",
+                                "C) Zonas No Interconectadas",
+                                "D) Pequeño Autogenerador"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 18,
+                            "pregunta": "¿Qué documento establece los objetivos de capacidad eólica y solar para el largo plazo (2022-2052)?",
+                            "opciones": [
+                                "A) Código de Redes",
+                                "B) Plan Energético Nacional (PEN)",
+                                "C) Estatuto Tributario",
+                                "D) Reglamento Técnico de Instalaciones Eléctricas (RETIE)"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 19,
+                            "pregunta": "¿Qué impacto contable genera la depreciación fiscal acelerada para activos FNCER en 3 años?",
+                            "opciones": [
+                                "A) Aumento inmediato de la base gravable",
+                                "B) Diferencia temporaria que se revierte al culminar la depreciación contable",
+                                "C) Diferencia permanente",
+                                "D) No afecta la contabilidad"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 20,
+                            "pregunta": "¿Qué cifra de crecimiento de la demanda de energía se ha reportado en la región Caribe?",
+                            "opciones": [
+                                "A) 2%",
+                                "B) 3.8%",
+                                "C) Más del 7%",
+                                "D) Menos del 1%"
+                            ],
+                            "respuesta": "C"
+                        }
+                    ]
+                },
+                {
+                    "nivel": "Dificultad Alta",
+                    "total_preguntas": 20,
+                    "preguntas": [
+                        {
+                            "id": 1,
+                            "pregunta": "¿Cuál es el principal \"cuello de botella\" que ha causado retrasos en proyectos FNCER en Colombia?",
+                            "opciones": [
+                                "A) Falta de incentivos fiscales",
+                                "B) Insuficiencia de recurso hídrico",
+                                "C) Infraestructura de transmisión saturada u obsoleta",
+                                "D) Exceso de capacidad instalada"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 2,
+                            "pregunta": "El incumplimiento del 1.4% en la entrada en operación de proyectos FNCER en 2025 se debe a:",
+                            "opciones": [
+                                "A) Falta de inversión privada",
+                                "B) Fallas en la planeación y ejecución de infraestructura y licenciamiento",
+                                "C) Mercado eléctrico saturado",
+                                "D) Ausencia de legislación FNCER"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 3,
+                            "pregunta": "¿Por qué es fundamental actualizar el Código de Redes vigente hace más de 20 años?",
+                            "opciones": [
+                                "A) Para aumentar el precio de la energía",
+                                "B) Para discriminar tecnologías FNCER",
+                                "C) Para incluir requerimientos técnicos específicos (tensión, frecuencia, reactivos) de la energía variable",
+                                "D) Para prohibir la autogeneración"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 4,
+                            "pregunta": "El bajo porcentaje de capacidad FNCER en La Guajira (32 MW) se debe principalmente a:",
+                            "opciones": [
+                                "A) Baja inversión extranjera",
+                                "B) Desafíos de justicia y equidad (CPLI) y déficit de transmisión",
+                                "C) Potencial eólico sobrestimado",
+                                "D) Bajo crecimiento de la demanda"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 5,
+                            "pregunta": "La alta dependencia hidroeléctrica y la variabilidad de las FNCER generan el desafío de:",
+                            "opciones": [
+                                "A) Riesgo de sobreproducción",
+                                "B) Lograr flexibilidad del sistema ante fenómenos climáticos",
+                                "C) Desaparición de las Zonas No Interconectadas",
+                                "D) Disminución de la demanda"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 6,
+                            "pregunta": "La promoción de la Gestión Eficiente de la Energía (GEE) busca:",
+                            "opciones": [
+                                "A) Fomentar la dependencia de fósiles",
+                                "B) Trasladar la responsabilidad al regulador",
+                                "C) Estabilidad y seguridad del sistema influyendo en los patrones de consumo",
+                                "D) Eliminar consumo en zonas no interconectadas"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 7,
+                            "pregunta": "En la Transición Energética Justa, las medidas de compensación en consultas previas buscan:",
+                            "opciones": [
+                                "A) Cobrar impuestos al gobierno",
+                                "B) Resarcir impactos negativos (biótico, abiótico, socioeconómico)",
+                                "C) Reubicar comunidades",
+                                "D) Eliminar beneficios fiscales"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 8,
+                            "pregunta": "El diseño de la deducción del 50% y la depreciación acelerada en 3 años busca:",
+                            "opciones": [
+                                "A) Retrasar la recuperación",
+                                "B) Mejorar el Valor Presente Neto y flujo de caja",
+                                "C) Aumentar impuestos indirectos",
+                                "D) Reducir competencia"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 9,
+                            "pregunta": "La principal barrera no técnica en regiones como La Guajira es:",
+                            "opciones": [
+                                "A) Falta de viento o sol",
+                                "B) Ausencia de acuerdos bilaterales",
+                                "C) Desafíos de justicia y equidad que limitan beneficios a comunidades",
+                                "D) Alto costo tecnológico"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 10,
+                            "pregunta": "El desarrollo de Comunidades Energéticas responde a:",
+                            "opciones": [
+                                "A) Concentrar producción en el SIN",
+                                "B) Descentralizar producción y promover uso local de FNCER",
+                                "C) Disminuir demanda industrial",
+                                "D) Financiar proyectos geotérmicos"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 11,
+                            "pregunta": "La falta de regulación sobre compensaciones socioeconómicas genera:",
+                            "opciones": [
+                                "A) Licencias más fáciles",
+                                "B) Incertidumbre legal y social en CPLI",
+                                "C) Eliminación de ANLA",
+                                "D) Estabilización del precio de energía"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 12,
+                            "pregunta": "La principal amenaza regulatoria para el cierre financiero de proyectos FNCER es:",
+                            "opciones": [
+                                "A) Baja inversión extranjera",
+                                "B) Inestabilidad en reglas del mercado (bolsa, cargo por confiabilidad)",
+                                "C) Alto costo hídrico",
+                                "D) Falta de recurso humano"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 13,
+                            "pregunta": "Si un proyecto FNCER tiene calificación UPME y conexión, pero se retrasa, probablemente es por:",
+                            "opciones": [
+                                "A) Espera de nuevo código de redes",
+                                "B) Barreras ambientales (ANLA) o congestión en transmisión",
+                                "C) Falta de demanda",
+                                "D) Escasez de recurso solar"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 14,
+                            "pregunta": "El potencial geotérmico de Colombia es estratégico porque:",
+                            "opciones": [
+                                "A) Bajo costo de inversión",
+                                "B) Proporciona energía firme y base frente a variabilidad eólica/solar",
+                                "C) Facilidad de transporte",
+                                "D) Regulación solo permite geotermia"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 15,
+                            "pregunta": "Desbloquear USD 92.400 millones para metas FNCER implica:",
+                            "opciones": [
+                                "A) Inversión estatal total",
+                                "B) Dependencia de política que garantice inversión privada",
+                                "C) Aumento en exportación de carbón",
+                                "D) Paralización de proyectos en La Guajira"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 16,
+                            "pregunta": "El principal riesgo técnico ante alta penetración ERV es:",
+                            "opciones": [
+                                "A) Sobrecalentamiento de turbinas",
+                                "B) Problemas de flexibilidad, congestión e interconexión débil",
+                                "C) Colapso de red de gas",
+                                "D) Disminución de demanda industrial"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 17,
+                            "pregunta": "Los acuerdos de RSC superpuestos con beneficios voluntarios son problemáticos porque:",
+                            "opciones": [
+                                "A) Beneficios no negociables",
+                                "B) Carecen de marco regulatorio y son percibidos como insuficientes",
+                                "C) Son demasiado costosos",
+                                "D) Están prohibidos por ley"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 18,
+                            "pregunta": "Los estudios de conexión exigidos por UPME son obligatorios para:",
+                            "opciones": [
+                                "A) Cobrar tarifas",
+                                "B) Determinar viabilidad",
+                                "C) Asegurar conexión segura y confiable de fuentes variables",
+                                "D) Imponer sanciones"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 19,
+                            "pregunta": "El “trilema energético” en Colombia se compone de:",
+                            "opciones": [
+                                "A) Petróleo, Gas y Carbón",
+                                "B) Seguridad de Abastecimiento, Equidad y Sostenibilidad Ambiental",
+                                "C) CREG, UPME y ANLA",
+                                "D) Generación, Transmisión y Distribución"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 20,
+                            "pregunta": "Si no se resuelve el cuello de botella en transmisión, el resultado será:",
+                            "opciones": [
+                                "A) Exportación masiva de energía",
+                                "B) Energía FNCER inyectada fuera del SIN, limitando seguridad energética",
+                                "C) Dependencia de geotermia",
+                                "D) Disminución del precio del gas"
+                            ],
+                            "respuesta": "B"
+                        }
+                    ]
+                },
+                {
+                    "nivel": "Dificultad Extrema",
+                    "total_preguntas": 20,
+                    "preguntas": [
+                        {
+                            "id": 1,
+                            "contexto": "Generadora Andina S.A. planea invertir USD 100 millones en un parque solar fotovoltaico en el departamento del Cesar, clasificado como FNCER. El proyecto inicia operación en 2026. La empresa busca maximizar beneficios fiscales aplicando la deducción especial del 50% y la depreciación acelerada del 33.33%. Los activos tangibles representan el 80% de la inversión total. La renta líquida gravable anual proyectada es de USD 30 millones. Las certificaciones requeridas son: UPME (para deducción en renta) y ANLA (para exención de IVA y aranceles).",
+                            "pregunta": "(Cálculo Financiero Integrado) Si Generadora Andina S.A. aplica la deducción especial del 50% y la depreciación acelerada del 33.33% desde 2026, ¿cuál es el monto máximo total que podría deducir de su renta líquida gravable, considerando que la deducción no puede superar el 50% de la renta líquida antes de la deducción?",
+                            "opciones": [
+                                "A) USD 50 millones (50% de la inversión)",
+                                "B) USD 15 millones (50% de la renta líquida antes de la deducción)",
+                                "C) USD 56.67 millones (Deducción 50% + Depreciación 33.33%)",
+                                "D) USD 30 millones (Monto total de la renta líquida)"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 2,
+                            "contexto": "Generadora Andina S.A. planea invertir USD 100 millones en un parque solar fotovoltaico en el departamento del Cesar, clasificado como FNCER. El proyecto inicia operación en 2026. La empresa busca maximizar beneficios fiscales aplicando la deducción especial del 50% y la depreciación acelerada del 33.33%. Los activos tangibles representan el 80% de la inversión total. La renta líquida gravable anual proyectada es de USD 30 millones. Las certificaciones requeridas son: UPME (para deducción en renta) y ANLA (para exención de IVA y aranceles).",
+                            "pregunta": "(Análisis de Depreciación) ¿Cuál es la implicación contable crítica de aplicar la depreciación acelerada del 33.33% en 3 años?",
+                            "opciones": [
+                                "A) Genera una diferencia permanente que aumenta el gasto tributario de por vida del proyecto.",
+                                "B) Genera una diferencia temporaria que reduce la base gravable en los primeros años, pero se revertirá al culminar la depreciación contable.",
+                                "C) Permite deducir el 100% de la inversión sin límite.",
+                                "D) Elimina la necesidad de certificación de la UPME."
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 3,
+                            "contexto": "Generadora Andina S.A. planea invertir USD 100 millones en un parque solar fotovoltaico en el departamento del Cesar, clasificado como FNCER. El proyecto inicia operación en 2026. La empresa busca maximizar beneficios fiscales aplicando la deducción especial del 50% y la depreciación acelerada del 33.33%. Los activos tangibles representan el 80% de la inversión total. La renta líquida gravable anual proyectada es de USD 30 millones. Las certificaciones requeridas son: UPME (para deducción en renta) y ANLA (para exención de IVA y aranceles).",
+                            "pregunta": "(Riesgo Regulatorio y Certificación) ¿Qué ocurre si la certificación de la ANLA para exclusión de IVA se retrasa y la empresa importa los equipos antes de recibir aprobación?",
+                            "opciones": [
+                                "A) Pierde la deducción especial en renta del 50%.",
+                                "B) Debe pagar IVA y aranceles, afectando el flujo de caja inicial y aumentando el costo total de inversión.",
+                                "C) El proyecto es descalificado por la UPME.",
+                                "D) Se congela la vigencia de los beneficios fiscales."
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 4,
+                            "contexto": "Generadora Andina S.A. planea invertir USD 100 millones en un parque solar fotovoltaico en el departamento del Cesar, clasificado como FNCER. El proyecto inicia operación en 2026. La empresa busca maximizar beneficios fiscales aplicando la deducción especial del 50% y la depreciación acelerada del 33.33%. Los activos tangibles representan el 80% de la inversión total. La renta líquida gravable anual proyectada es de USD 30 millones. Las certificaciones requeridas son: UPME (para deducción en renta) y ANLA (para exención de IVA y aranceles).",
+                            "pregunta": "(Interdependencia UPME/ANLA) ¿Qué certificaciones debe tramitar Generadora Andina S.A. para acceder a la deducción de renta y la exclusión de IVA?",
+                            "opciones": [
+                                "A) UPME: Calificación FNCER; CREG: Regulación de tarifa.",
+                                "B) ANLA: Certificación IVA; UPME: Calificación FNCER.",
+                                "C) MME: Permiso de generación; ANLA: Licencia ambiental.",
+                                "D) ANLA: Certificación de exclusión de IVA y exención arancelaria; UPME: Calificación del proyecto para deducción de renta."
+                            ],
+                            "respuesta": "D"
+                        },
+                        {
+                            "id": 5,
+                            "contexto": "Generadora Andina S.A. planea invertir USD 100 millones en un parque solar fotovoltaico en el departamento del Cesar, clasificado como FNCER. El proyecto inicia operación en 2026. La empresa busca maximizar beneficios fiscales aplicando la deducción especial del 50% y la depreciación acelerada del 33.33%. Los activos tangibles representan el 80% de la inversión total. La renta líquida gravable anual proyectada es de USD 30 millones. Las certificaciones requeridas son: UPME (para deducción en renta) y ANLA (para exención de IVA y aranceles).",
+                            "pregunta": "(Vigencia de Incentivos) ¿Hasta qué año están garantizados los beneficios fiscales de deducción de renta y depreciación acelerada?",
+                            "opciones": [
+                                "A) 2030",
+                                "B) 2051",
+                                "C) Cuando la depreciación contable iguale la fiscal",
+                                "D) 2040"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 6,
+                            "contexto": "Colombia enfrenta el “Trilema Energético”: seguridad de abastecimiento, equidad y sostenibilidad ambiental. La UPME advierte que una alta penetración de Energía Renovable Variable (ERV) junto a la vulnerabilidad hídrica genera riesgos de flexibilidad y congestión. El Código de Redes vigente no contempla los requerimientos técnicos modernos, y la inestabilidad regulatoria del Cargo por Confiabilidad afecta la bancarización de proyectos FNCER.",
+                            "pregunta": "(Riesgo del Trilema Energético) ¿Cuál es el desafío técnico más inminente ante una alta dependencia hidroeléctrica y penetración de ERV durante un fenómeno de El Niño?",
+                            "opciones": [
+                                "A) Sobreproducción constante.",
+                                "B) Problemas de flexibilidad del sistema cuando la generación hidroeléctrica es baja.",
+                                "C) Colapso de la infraestructura de gas.",
+                                "D) Interrupción con países vecinos."
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 7,
+                            "contexto": "Colombia enfrenta el “Trilema Energético”: seguridad de abastecimiento, equidad y sostenibilidad ambiental. La UPME advierte que una alta penetración de Energía Renovable Variable (ERV) junto a la vulnerabilidad hídrica genera riesgos de flexibilidad y congestión. El Código de Redes vigente no contempla los requerimientos técnicos modernos, y la inestabilidad regulatoria del Cargo por Confiabilidad afecta la bancarización de proyectos FNCER.",
+                            "pregunta": "(Necesidad del Código de Redes) ¿Por qué la UPME impulsa la actualización del Código de Redes?",
+                            "opciones": [
+                                "A) Para exigir turbinas de gas.",
+                                "B) Para incluir requerimientos técnicos (tensión, reactivos, desconexión) esenciales para conectar ERV de forma segura.",
+                                "C) Para prohibir proyectos FNCER.",
+                                "D) Para aumentar costos de transmisión."
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 8,
+                            "contexto": "Colombia enfrenta el “Trilema Energético”: seguridad de abastecimiento, equidad y sostenibilidad ambiental. La UPME advierte que una alta penetración de Energía Renovable Variable (ERV) junto a la vulnerabilidad hídrica genera riesgos de flexibilidad y congestión. El Código de Redes vigente no contempla los requerimientos técnicos modernos, y la inestabilidad regulatoria del Cargo por Confiabilidad afecta la bancarización de proyectos FNCER.",
+                            "pregunta": "(Cargo por Confiabilidad y Bancarización) ¿Cómo afecta la inestabilidad regulatoria del Cargo por Confiabilidad a los proyectos FNCER?",
+                            "opciones": [
+                                "A) Solo aplica a hidroeléctricas.",
+                                "B) Restringe la posibilidad de ingresos estables, dificultando el cierre financiero y la competitividad.",
+                                "C) Hace más costosa la energía solar.",
+                                "D) Impide que la UPME los califique."
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 9,
+                            "contexto": "Colombia enfrenta el “Trilema Energético”: seguridad de abastecimiento, equidad y sostenibilidad ambiental. La UPME advierte que una alta penetración de Energía Renovable Variable (ERV) junto a la vulnerabilidad hídrica genera riesgos de flexibilidad y congestión. El Código de Redes vigente no contempla los requerimientos técnicos modernos, y la inestabilidad regulatoria del Cargo por Confiabilidad afecta la bancarización de proyectos FNCER.",
+                            "pregunta": "(Rol de la Tecnología) ¿Qué fuente energética ofrece energía firme y base para mitigar la variabilidad solar y eólica?",
+                            "opciones": [
+                                "A) Biomasa de residuos sólidos urbanos",
+                                "B) Pequeños Aprovechamientos Hidroeléctricos (PCH)",
+                                "C) Energía Geotérmica",
+                                "D) Autogeneración a Pequeña Escala"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 10,
+                            "contexto": "Colombia enfrenta el “Trilema Energético”: seguridad de abastecimiento, equidad y sostenibilidad ambiental. La UPME advierte que una alta penetración de Energía Renovable Variable (ERV) junto a la vulnerabilidad hídrica genera riesgos de flexibilidad y congestión. El Código de Redes vigente no contempla los requerimientos técnicos modernos, y la inestabilidad regulatoria del Cargo por Confiabilidad afecta la bancarización de proyectos FNCER.",
+                            "pregunta": "(Desafío de Ejecución) ¿Por qué solo ingresó el 1.4% de la energía prevista en 2025 a pesar de los proyectos aprobados por la UPME?",
+                            "opciones": [
+                                "A) Falta de recurso solar y eólico",
+                                "B) Infraestructura de transmisión saturada u obsoleta, especialmente en la Región Caribe",
+                                "C) Sobreoferta de gas natural",
+                                "D) Prohibición de importar equipos"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 11,
+                            "contexto": "La Guajira, con el mayor potencial eólico y solar del país, tiene apenas 32 MW instalados. Esto se debe a los complejos procesos de Consulta Previa Libre e Informada (CPLI) y la falta de regulación sobre compensaciones socioeconómicas. Las iniciativas de Responsabilidad Social Corporativa (RSC) se superponen con los beneficios “voluntarios”, generando incertidumbre y conflicto con las comunidades.",
+                            "pregunta": "(Causa Raíz de la Paradoja) ¿Por qué La Guajira, pese a su potencial FNCER, tiene tan baja capacidad instalada?",
+                            "opciones": [
+                                "A) Baja demanda energética.",
+                                "B) Falta de mano de obra local.",
+                                "C) Lentitud de las CPLI y congestión de la red de transmisión.",
+                                "D) Prohibición de parques eólicos costeros."
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 12,
+                            "contexto": "La Guajira, con el mayor potencial eólico y solar del país, tiene apenas 32 MW instalados. Esto se debe a los complejos procesos de Consulta Previa Libre e Informada (CPLI) y la falta de regulación sobre compensaciones socioeconómicas. Las iniciativas de Responsabilidad Social Corporativa (RSC) se superponen con los beneficios “voluntarios”, generando incertidumbre y conflicto con las comunidades.",
+                            "pregunta": "(Vacío Normativo Crítico) ¿Qué genera la falta de reglamentación para compensaciones socioeconómicas en proyectos FNCER?",
+                            "opciones": [
+                                "A) Acelera aprobaciones.",
+                                "B) Causa incertidumbre legal y social, dificultando acuerdos territoriales legítimos.",
+                                "C) Elimina estudios de impacto biótico.",
+                                "D) Traslada la responsabilidad al gobierno."
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 13,
+                            "contexto": "La Guajira, con el mayor potencial eólico y solar del país, tiene apenas 32 MW instalados. Esto se debe a los complejos procesos de Consulta Previa Libre e Informada (CPLI) y la falta de regulación sobre compensaciones socioeconómicas. Las iniciativas de Responsabilidad Social Corporativa (RSC) se superponen con los beneficios “voluntarios”, generando incertidumbre y conflicto con las comunidades.",
+                            "pregunta": "(Naturaleza de las Compensaciones) ¿Cómo se clasifican las medidas de compensación en CPLI de proyectos FNCER?",
+                            "opciones": [
+                                "A) Sanciones penales.",
+                                "B) Impuestos obligatorios.",
+                                "C) Acciones para resarcir impactos en componentes biótico, abiótico o socioeconómico.",
+                                "D) Donaciones sin relación con el proyecto."
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 14,
+                            "contexto": "La Guajira, con el mayor potencial eólico y solar del país, tiene apenas 32 MW instalados. Esto se debe a los complejos procesos de Consulta Previa Libre e Informada (CPLI) y la falta de regulación sobre compensaciones socioeconómicas. Las iniciativas de Responsabilidad Social Corporativa (RSC) se superponen con los beneficios “voluntarios”, generando incertidumbre y conflicto con las comunidades.",
+                            "pregunta": "(Descentralización y Justicia Energética) ¿Qué figura legal busca promover beneficios tangibles territoriales mediante la descentralización FNCER?",
+                            "opciones": [
+                                "A) Zonas de Desarrollo Económico Especial",
+                                "B) Comunidades Energéticas (CE)",
+                                "C) Programas PROURE",
+                                "D) Empresas de Servicios Públicos"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 15,
+                            "contexto": "La Guajira, con el mayor potencial eólico y solar del país, tiene apenas 32 MW instalados. Esto se debe a los complejos procesos de Consulta Previa Libre e Informada (CPLI) y la falta de regulación sobre compensaciones socioeconómicas. Las iniciativas de Responsabilidad Social Corporativa (RSC) se superponen con los beneficios “voluntarios”, generando incertidumbre y conflicto con las comunidades.",
+                            "pregunta": "(Incertidumbre vs. RSC) ¿Por qué la superposición de acuerdos voluntarios y RSC es problemática?",
+                            "opciones": [
+                                "A) Porque los programas RSC son más costosos.",
+                                "B) Porque carecen de marco regulatorio y pueden ser percibidos como insuficientes por las comunidades.",
+                                "C) Porque el Decreto 2236 prohíbe la RSC.",
+                                "D) Porque retrasa la deducción del 50%."
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 16,
+                            "contexto": "El Plan Energético Nacional (PEN 2022–2052) fija la meta de alcanzar 100 GW de capacidad renovable y 70% de participación eléctrica en el consumo final para 2050. Esto implica invertir USD 92.400 millones y reducir la dependencia en combustibles fósiles e hidroelectricidad, vulnerables ante el cambio climático.",
+                            "pregunta": "(Dimensión de la Electrificación) ¿Cuál es la meta de aumento en la participación eléctrica y su propósito?",
+                            "opciones": [
+                                "A) 18% → 35% para 2030, apoyar el sector minero",
+                                "B) 18% → 70% para 2050, desplazar combustibles fósiles",
+                                "C) 35% → 70% para 2050, estabilizar precios del gas",
+                                "D) 18% → 100% para 2050, eliminar otras fuentes"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 17,
+                            "contexto": "El Plan Energético Nacional (PEN 2022–2052) fija la meta de alcanzar 100 GW de capacidad renovable y 70% de participación eléctrica en el consumo final para 2050. Esto implica invertir USD 92.400 millones y reducir la dependencia en combustibles fósiles e hidroelectricidad, vulnerables ante el cambio climático.",
+                            "pregunta": "(Escala de la Transición) ¿Cuál es la meta de capacidad instalada renovable para alcanzar carbono-neutralidad en 2050?",
+                            "opciones": [
+                                "A) 6 GW",
+                                "B) 23 GW",
+                                "C) 100 GW",
+                                "D) 3,140 MW"
+                            ],
+                            "respuesta": "C"
+                        },
+                        {
+                            "id": 18,
+                            "contexto": "El Plan Energético Nacional (PEN 2022–2052) fija la meta de alcanzar 100 GW de capacidad renovable y 70% de participación eléctrica en el consumo final para 2050. Esto implica invertir USD 92.400 millones y reducir la dependencia en combustibles fósiles e hidroelectricidad, vulnerables ante el cambio climático.",
+                            "pregunta": "(Necesidad de Inversión) ¿Qué implica la inversión estimada de USD 92.400 millones del PEN 2022–2052?",
+                            "opciones": [
+                                "A) Renuncia del Estado a inversión pública",
+                                "B) Necesidad de estabilidad regulatoria para atraer inversión privada y financiamiento externo",
+                                "C) Dependencia total de hidroelectricidad",
+                                "D) Prioridad exclusiva en biomasa"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 19,
+                            "contexto": "El Plan Energético Nacional (PEN 2022–2052) fija la meta de alcanzar 100 GW de capacidad renovable y 70% de participación eléctrica en el consumo final para 2050. Esto implica invertir USD 92.400 millones y reducir la dependencia en combustibles fósiles e hidroelectricidad, vulnerables ante el cambio climático.",
+                            "pregunta": "(Riesgo de la Matriz Convencional) ¿Qué efecto tiene la dependencia hídrica de Colombia y el agotamiento fósil en el SIN?",
+                            "opciones": [
+                                "A) Exportación de excedentes",
+                                "B) Inversión en geotermia para asegurar energía base y diversificar la matriz",
+                                "C) Detener las FNCER",
+                                "D) Aumentar dependencia en Zonas No Interconectadas"
+                            ],
+                            "respuesta": "B"
+                        },
+                        {
+                            "id": 20,
+                            "contexto": "El Plan Energético Nacional (PEN 2022–2052) fija la meta de alcanzar 100 GW de capacidad renovable y 70% de participación eléctrica en el consumo final para 2050. Esto implica invertir USD 92.400 millones y reducir la dependencia en combustibles fósiles e hidroelectricidad, vulnerables ante el cambio climático.",
+                            "pregunta": "(Fuentes No Convencionales vs. Convencionales) ¿Por qué se priorizan las FNCER sobre la hidroelectricidad?",
+                            "opciones": [
+                                "A) Porque la hidroelectricidad no es considerada renovable.",
+                                "B) Para desplazar carbón y gas, diversificar la matriz y mitigar vulnerabilidad ante variabilidad climática.",
+                                "C) Porque los PCH están excluidos como FNCER.",
+                                "D) Para reducir el consumo eléctrico nacional."
+                            ],
+                            "respuesta": "B"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
