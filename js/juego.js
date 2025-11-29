@@ -217,6 +217,10 @@ class Juego {
                 puntaje: jugadorResumen.puntaje,
                 aciertos: jugadorResumen.aciertos,
                 fallos: jugadorResumen.fallos,
+                nota: (
+                    (5 / jugadorCompleto.respuestas.length) *
+                    jugadorResumen.aciertos
+                ).toFixed(2),
                 fechaFinalizacion: new Date(),
                 preguntas: jugadorCompleto.respuestas.map((r) => ({
                     pregunta: r.pregunta.texto,
