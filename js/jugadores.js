@@ -25,12 +25,7 @@ class ManejadorJugadores {
         return this.obtenerJugadorActual();
     }
 
-    registrarRespuesta(
-        jugadorIndex,
-        pregunta,
-        esCorrecta,
-        respuestaUsuario
-    ) {
+    registrarRespuesta(jugadorIndex, pregunta, esCorrecta, respuestaUsuario) {
         const jugador = this.jugadores[jugadorIndex];
         if (esCorrecta) {
             jugador.aciertos++;
@@ -56,6 +51,10 @@ class ManejadorJugadores {
                     aciertos,
                     fallos,
                     puntaje: aciertos * 100,
+                    nota:
+                        aciertos + fallos > 0
+                            ? ((aciertos / (aciertos + fallos)) * 5).toFixed(2)
+                            : 0, // <-- nota del 0 al 5
                 };
             })
             .sort((a, b) => b.puntaje - a.puntaje);

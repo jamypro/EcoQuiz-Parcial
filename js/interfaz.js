@@ -134,6 +134,7 @@ class InterfazUI {
                 <td>${jugador.aciertos}</td>
                 <td>${jugador.fallos}</td>
                 <td>${jugador.puntaje}</td>
+                <td>${jugador.nota}</td>
             </tr>
         `
             )
