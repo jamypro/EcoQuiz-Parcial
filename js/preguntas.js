@@ -27,10 +27,7 @@ class ManejadorPreguntas {
 
                     // Procesar la estructura específica del JSON
                     const preguntas = [];
-                    console.log(
-                        `Datos cargados del archivo ${nombreArchivo}:`,
-                        data
-                    );
+
                     if (data.temas && Array.isArray(data.temas)) {
                         data.temas.forEach((tema) => {
                             if (tema.niveles && Array.isArray(tema.niveles)) {
@@ -42,149 +39,71 @@ class ManejadorPreguntas {
                                         // Mapear las preguntas al formato que espera la aplicación
                                         const preguntasProcesadas =
                                             nivel.preguntas.map((p) => {
-                                                const raw = p.pregunta || "";
+                                                const rawPregunta =
+                                                    p.pregunta || "";
+                                                let contexto =
+                                                    p.contexto || null;
+                                                let preguntaTexto = rawPregunta;
 
-                                                // Normalizar y preparar variables
-                                                let contexto = null;
-                                                let preguntaTexto = raw;
-
-                                                // 1) Si existe campo explícito p.contexto, usarlo
-                                                if (
-                                                    p.contexto &&
-                                                    String(p.contexto).trim()
-                                                        .length > 0
-                                                ) {
-                                                    contexto =
-                                                        this.limpiarTexto(
-                                                            String(p.contexto)
-                                                        );
-                                                    // mantener la pregunta en el campo original (sin contexto)
-                                                    preguntaTexto = raw
-                                                        .replace(
-                                                            /\[cite:\s*\d+\]/g,
-                                                            ""
-                                                        )
-                                                        .trim();
-                                                } else {
-                                                    // 2) Intentar extraer pregunta completa mediante detección de signo de interrogación en español
-                                                    const qMatch =
-                                                        raw.match(
-                                                            /(¿[\s\S]*?\?)/
-                                                        );
-                                                    if (qMatch && qMatch[1]) {
-                                                        preguntaTexto =
-                                                            qMatch[1];
-                                                        const posibleContexto =
-                                                            raw.replace(
-                                                                qMatch[1],
+                                                // 1. Extraer pregunta principal (texto entre ¿ y ?) si existe
+                                                const qMatch =
+                                                    preguntaTexto.match(
+                                                        /(¿[\s\S]*?\?)/
+                                                    );
+                                                if (qMatch && qMatch[1]) {
+                                                    const preguntaExtraida =
+                                                        qMatch[1];
+                                                    const posibleContexto =
+                                                        preguntaTexto
+                                                            .replace(
+                                                                preguntaExtraida,
                                                                 ""
-                                                            );
-                                                        if (
-                                                            posibleContexto &&
-                                                            posibleContexto.trim()
-                                                                .length > 0
-                                                        ) {
-                                                            contexto =
-                                                                this.limpiarTexto(
-                                                                    posibleContexto
-                                                                );
-                                                        }
-                                                    } else if (
-                                                        raw.includes("\n")
-                                                    ) {
-                                                        // 3) Si hay saltos de línea, asumir que la primera línea es contexto y la última es la pregunta
-                                                        const partesLineas = raw
+                                                            )
+                                                            .trim();
+
+                                                    if (posibleContexto) {
+                                                        contexto = contexto
+                                                            ? `${contexto} ${posibleContexto}`
+                                                            : posibleContexto;
+                                                    }
+                                                    preguntaTexto =
+                                                        preguntaExtraida;
+                                                }
+                                                // 2. Si no hay pregunta con ??, pero hay saltos de línea, usar la última como pregunta
+                                                else if (
+                                                    preguntaTexto.includes("\n")
+                                                ) {
+                                                    const partesLineas =
+                                                        preguntaTexto
                                                             .split(/\n+/)
                                                             .map((s) =>
                                                                 s.trim()
                                                             )
                                                             .filter(Boolean);
-                                                        if (
-                                                            partesLineas.length >=
-                                                            2
-                                                        ) {
-                                                            contexto =
-                                                                this.limpiarTexto(
-                                                                    partesLineas
-                                                                        .slice(
-                                                                            0,
-                                                                            -1
-                                                                        )
-                                                                        .join(
-                                                                            " "
-                                                                        )
-                                                                );
-                                                            preguntaTexto =
-                                                                partesLineas.slice(
-                                                                    -1
-                                                                )[0];
-                                                        }
-                                                    } else if (
-                                                        raw.includes("[cite:")
+                                                    if (
+                                                        partesLineas.length > 1
                                                     ) {
-                                                        // 4) Fallback previo: dividir por [cite:]
-                                                        const partes =
-                                                            raw.split("[cite:");
-                                                        if (partes.length > 1) {
-                                                            const posibleContexto =
-                                                                partes[0].trim();
-                                                            if (
-                                                                posibleContexto.length >
-                                                                0
-                                                            ) {
-                                                                contexto =
-                                                                    this.limpiarTexto(
-                                                                        posibleContexto
-                                                                    );
-                                                            }
-                                                            const ultimo =
-                                                                partes[
-                                                                    partes.length -
-                                                                        1
-                                                                ];
-                                                            const indiceFinal =
-                                                                ultimo.indexOf(
-                                                                    "]"
-                                                                );
-                                                            if (
-                                                                indiceFinal !==
-                                                                -1
-                                                            ) {
-                                                                const restante =
-                                                                    ultimo
-                                                                        .substring(
-                                                                            indiceFinal +
-                                                                                1
-                                                                        )
-                                                                        .trim();
-                                                                if (
-                                                                    restante.length >
-                                                                    0
-                                                                )
-                                                                    preguntaTexto =
-                                                                        restante;
-                                                            }
-                                                        }
-                                                    }
-
-                                                    // Limpiar referencias [cite] en ambos textos
-                                                    preguntaTexto =
-                                                        preguntaTexto
-                                                            .replace(
-                                                                /\[cite:\s*\d+\]/g,
-                                                                ""
-                                                            )
-                                                            .trim();
-                                                    if (contexto)
+                                                        const nuevoContexto =
+                                                            partesLineas
+                                                                .slice(0, -1)
+                                                                .join(" ");
                                                         contexto = contexto
-                                                            .replace(
-                                                                /\[cite:\s*\d+\]/g,
-                                                                ""
-                                                            )
-                                                            .trim();
+                                                            ? `${contexto} ${nuevoContexto}`
+                                                            : nuevoContexto;
+                                                        preguntaTexto =
+                                                            partesLineas.slice(
+                                                                -1
+                                                            )[0];
+                                                    }
                                                 }
 
-                                                // Asegurarnos de limpiar cualquier marcador restante en el texto de la pregunta
+                                                // 3. Limpieza final de [cite]
+                                                if (contexto) {
+                                                    contexto =
+                                                        this.limpiarTexto(
+                                                            contexto
+                                                        );
+                                                }
                                                 preguntaTexto =
                                                     this.limpiarTexto(
                                                         preguntaTexto
@@ -235,7 +154,6 @@ class ManejadorPreguntas {
                 );
             }
 
-            console.log("Preguntas cargadas:", this.preguntas);
             return true;
         } catch (error) {
             console.error("Error al cargar las preguntas:", error);
@@ -363,32 +281,13 @@ class ManejadorPreguntas {
             0,
             numPreguntas
         );
-
-        // Log de distribución
-        console.log(
-            "Distribución final por origen:",
-            seleccionadas.reduce((acc, p) => {
-                acc[p.origen] = (acc[p.origen] || 0) + 1;
-                return acc;
-            }, {})
-        );
-        seleccionadas.forEach((s) => {
-            console.log("pregunta", s.texto);
-            console.log("respuesta", s.opciones[s.respuestaCorrecta]);
-        });
         this.preguntasSeleccionadas = seleccionadas;
-        console.log("preguntas seleccionadas", this.preguntasSeleccionadas);
         return seleccionadas;
     }
 
     verificarRespuesta(preguntaId, respuestaSeleccionada) {
         const pregunta = this.preguntasSeleccionadas.find(
             (p) => p.id === preguntaId
-        );
-        console.log("pregunta-V ", pregunta);
-        console.log(
-            "pregunta-C ",
-            pregunta && pregunta.respuestaCorrecta === respuestaSeleccionada
         );
 
         return pregunta && pregunta.respuestaCorrecta === respuestaSeleccionada;

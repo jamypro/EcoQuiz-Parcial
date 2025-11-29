@@ -178,9 +178,6 @@ class Juego {
             indiceRespuesta
         );
 
-        console.log("manejador ", this.preguntaActual.id);
-        console.log("indeice respuesta ", indiceRespuesta);
-
         jugadorActual.preguntasRespondidas++;
 
         this.manejadorJugadores.registrarRespuesta(
@@ -190,7 +187,6 @@ class Juego {
             this.preguntaActual.opciones[indiceRespuesta]
         );
 
-        this.reproducirSonido(esCorrecta ? "ACIERTO" : "ERROR");
         this.preguntasRespondidas++;
 
         if (this.preguntasRespondidas < this.totalPreguntas) {
