@@ -218,7 +218,6 @@ class ManejadorPreguntas {
         };
 
         const prioridades = prioridadDificultades(dificultad);
-
         // Distribuir cuota por origen (base + algunos con +1 para el resto)
         const n = origenes.length;
         const base = Math.floor(numPreguntas / n);

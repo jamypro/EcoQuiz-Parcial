@@ -214,6 +214,7 @@ class Juego {
             const resultadoPartida = {
                 nombre: jugadorResumen.nombre,
                 tiempoTotal: tiempoTotal,
+                nivel: this.configuracion.dificultad,
                 puntaje: jugadorResumen.puntaje,
                 aciertos: jugadorResumen.aciertos,
                 fallos: jugadorResumen.fallos,
